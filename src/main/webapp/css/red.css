@@ -1,0 +1,21 @@
+/* CSS Document */
+#logo a{color:#b70005;}
+.nav{ background: #b70005; }
+.nav li{border-right: 1px solid #b70005;}
+.nav li a:hover { background: #f04b50; }
+.it .curr { border-top: 2px solid #b70005;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a { border-top: 2px solid #b70005;}
+.xTbg{background: #b70005;}
+.dNav dt {border-left: 4px solid #b70005;}
+
+.btnnor{background: #b70005; color: #fff; box-shadow: none; box-sizing: border-box; border: none;}
+
+.schBox .schItem .schIpt{border: 1px solid #d6e0ea;}
+.subNav .curr a{border-top: 2px solid #b70005;}
+
+.schBox .schTab .curr { background: #b70005;}
+
+.subNav a.cuur{ border-top: 2px solid #b70005;}
+
+.consultList .li3{ margin-left: 10px;}
+.consultList .li3 .btn{ background: #b70005;}

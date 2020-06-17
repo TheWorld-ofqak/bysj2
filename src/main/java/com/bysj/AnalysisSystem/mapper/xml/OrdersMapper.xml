@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bysj.AnalysisSystem.mapper.OrdersMapper">
+
+
+
+<!--    <select id="getchart1" resultMap="getchart1">-->
+<!--         select c.type1 ,c.cout from-->
+<!--        (select type as type1,count(*) as cout-->
+<!--          from orders group  by type-->
+<!--            ) as c-->
+
+<!--    </select>-->
+
+<!--    <resultMap id="getchart1" type="com.bysj.AnalysisSystem.vo.chart1">-->
+
+<!--        <result property="type" column="type1"></result>-->
+<!--        <result property="count1" column="cout"></result>-->
+
+<!--    </resultMap>-->
+
+
+
+    <select id="getchart1" resultMap="chart1" parameterType="java.lang.String">
+        select distinct (substring_index(name,' ',2)) as name1,goodnumber,midnumber,lownumber from orders where type=#{type} limit 20 ;
+
+    </select>
+
+    <resultMap id="chart1" type="com.bysj.AnalysisSystem.vo.chart">
+
+        <result property="name" column="name1"></result>
+        <result property="goodnumber" column="goodnumber"></result>
+        <result property="midnumber" column="midnumber"></result>
+        <result property="lownumber" column="lownumber"></result>
+
+    </resultMap>
+
+
+
+
+    <select id="getchart2" resultMap="chart2" parameterType="java.lang.String">
+        select distinct (substring_index(name,' ',2)) as name1,goodnumber from orders name where type=#{type}  limit 20;
+
+
+    </select>
+
+    <resultMap id="chart2" type="com.bysj.AnalysisSystem.vo.chart">
+
+        <result property="name" column="name1"></result>
+        <result property="goodnumber" column="goodnumber"></result>
+
+    </resultMap>
+
+
+    <select id="getwordspicture" resultType="com.bysj.AnalysisSystem.vo.wordsPicture">
+
+<!--        SELECT * FROM (select  distinct substring(specialtxt,1,4) as specialtxt1, count(specialtxt) as counts from orders group by specialtxt1-->
+
+<!--        )as word WHERE specialtxt1!='<ahr';-->
+
+        select  distinct substring(specialtxt,1,4) as specialtxt1, count(specialtxt) as counts from orders group by specialtxt1 ;
+    </select>
+
+
+
+
+
+
+
+
+
+
+
+</mapper>

@@ -1,0 +1,9 @@
+.form-control{
+    display: inline-block;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.form-control-static{
+    display: inline-block;
+}

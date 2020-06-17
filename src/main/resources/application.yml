@@ -1,0 +1,27 @@
+
+
+
+server:
+  port: 8110
+
+
+spring:
+  datasource:
+    username: root
+    password: qak195085
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/project?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+
+  profiles:
+    active: dev
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+
+
+mybatis-plus:
+  mapper-locations: classpath:com/bysj/AnalysisSystem/mapper/xml/*.xml
+  type-aliases-package: com.bysj.AmalysisSytem.entity
+
+mybatis-plus.configuration.map-underscore-to-camel-case: true

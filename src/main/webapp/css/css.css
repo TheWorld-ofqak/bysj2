@@ -1,0 +1,7210 @@
+* {
+	margin: 0;
+	padding: 0
+}
+
+html {
+	height: 100%
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei", SimSun, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #555;
+	background-color: rgb(229,235,242);
+	height: 100%
+}
+
+a {
+	color: #555;
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: none;
+	color: #00abd8
+}
+
+a.link {
+	color: #00abd8
+}
+
+a.btn {
+	color: #fff !important
+}
+
+img {
+	border: 0
+}
+
+ol,
+ul,
+li {
+	list-style: none
+}
+
+table {
+	border-collapse: collapse
+}
+
+.Validform_wrong {
+	color: #f2572d !important
+}
+
+.text-weight {
+	font-weight: bolder !important
+}
+
+.text-danger {
+	color: red
+}
+
+.css-transition {
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s
+}
+
+.text-hide {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.clearfix {
+	*zoom: 1
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-dt-horizontal dt {
+	float: left;
+	width: 80px;
+	overflow: hidden;
+	clear: left;
+	text-align: right;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: bolder;
+	padding: 3px 0
+}
+
+.css-dt-horizontal dd {
+	margin-left: 90px;
+	margin-bottom: 10px;
+	padding: 3px 0;
+	*zoom: 1
+}
+
+.css-dt-horizontal dd:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-dt-horizontal dd a {
+	padding: 3px 6px;
+	float: left
+}
+
+.css-dt-horizontal dd .active {
+	color: #fff;
+	background-color: #00abd8
+}
+
+.css-dt-horizontal dd label {
+	margin-right: 10px
+}
+
+.css-dt-horizontal dd label input[type=radio],
+.css-dt-horizontal dd label [type=checkbox] {
+	margin-right: 5px;
+	vertical-align: middle;
+	margin-top: -3px
+}
+
+.css-dt-horizontal dd label img {
+	vertical-align: middle
+}
+
+.css-dt-horizontal .css-pay-method {
+	padding-top: 10px
+}
+
+.nofloat {
+	float: none !important
+}
+
+.css-synlogin {
+	padding: 100px 0;
+	text-align: center
+}
+
+.pull-left {
+	float: left
+}
+
+.pull-right {
+	float: right
+}
+
+.icon {
+	margin-right: 5px
+}
+
+.text-center {
+	text-align: center
+}
+
+.text-left {
+	text-align: left !important
+}
+
+.text-right {
+	text-align: right !important
+}
+
+.text-red {
+	color: #f2572d !important
+}
+
+.text-blue {
+	color: #0067a6 !important
+}
+
+.text-success {
+	color: #71b83d !important
+}
+
+.text-orange {
+	color: #f2572d !important
+}
+
+.bg-orange {
+	background-color: #f2572d;
+	color: #fff
+}
+
+.bg-primary {
+	background-color: #00abd8
+}
+
+.text-primary {
+	color: #00abd8 !important
+}
+
+.text-default {
+	color: #999 !important
+}
+
+.css-list-inline li {
+	display: inline
+}
+
+.css-noborder {
+	border: 0 !important
+}
+
+.css-offset-col330 {
+	margin-left: 330px
+}
+
+.css-col20 {
+	width: 20px
+}
+
+.css-col30 {
+	width: 30px
+}
+
+.css-col50 {
+	width: 50px
+}
+
+.css-col60 {
+	width: 60px
+}
+
+.css-col100 {
+	width: 100px
+}
+
+.css-col120 {
+	width: 120px
+}
+
+.css-col130 {
+	width: 130px
+}
+
+.css-col140 {
+	width: 140px
+}
+
+.css-col148 {
+	width: 148px
+}
+
+.css-col150 {
+	width: 150px
+}
+
+.css-col170 {
+	width: 170px
+}
+
+.css-col200 {
+	width: 200px
+}
+
+.css-col250 {
+	width: 250px
+}
+
+.css-col270 {
+	width: 270px
+}
+
+.css-col300 {
+	width: 300px
+}
+
+.css-col350 {
+	width: 350px
+}
+
+.css-col400 {
+	width: 400px
+}
+
+.css-col450 {
+	width: 450px
+}
+
+.css-col470 {
+	width: 470px
+}
+
+.css-col500 {
+	width: 500px
+}
+
+.css-col600 {
+	width: 600px
+}
+
+.css-col750 {
+	width: 750px
+}
+
+.css-col780 {
+	width: 780px
+}
+
+.css-col800 {
+	width: 800px
+}
+
+.css-col900 {
+	width: 900px
+}
+
+.css-col950 {
+	width: 950px
+}
+
+.css-col1000 {
+	width: 1000px
+}
+
+.layui-layer-btn0,
+.layui-layer-btn1,
+.layui-layer-btn2,
+.layui-layer-btn3 {
+	display: none !important
+}
+
+.layui-btn2 {
+	background-color: #f67f00 !important;
+	display: none
+}
+
+.layui-btn3 {
+	background-color: #208dd9 !important;
+	display: none
+}
+
+.css-hide {
+	display: none
+}
+
+.css-relative {
+	position: relative
+}
+
+.css-error {
+	color: #f2572d
+}
+
+.btn,
+.css-tip-hack {
+	background-color: #00abd8;
+	border: 0;
+	box-shadow: none;
+	color: #fff !important;
+	cursor: pointer;
+	height: 30px;
+	line-height: 28px;
+	overflow: visible;
+	padding: 0 20px
+}
+
+.btn-success {
+	background-color: #00abd8;
+	border: 0;
+	box-shadow: none;
+	color: #fff !important;
+	cursor: pointer;
+	height: 30px;
+	line-height: 28px;
+	overflow: visible;
+	padding: 0 20px;
+	background-color: #42ba7b
+}
+
+.btn-success:hover {
+	background-color: #40aa7b
+}
+
+.btn-orange {
+	background-color: #00abd8;
+	border: 0;
+	box-shadow: none;
+	color: #fff !important;
+	cursor: pointer;
+	height: 30px;
+	line-height: 28px;
+	overflow: visible;
+	padding: 0 20px;
+	background-color: #f26222
+}
+
+.btn-orange:hover {
+	background-color: #e34500
+}
+
+.btn-default {
+	background-color: #00abd8;
+	border: 0;
+	box-shadow: none;
+	color: #fff !important;
+	cursor: pointer;
+	height: 30px;
+	line-height: 28px;
+	overflow: visible;
+	padding: 0 20px;
+	background-color: #ccc;
+	color: #333
+}
+
+.btn-default:hover {
+	background-color: #bbb
+}
+
+.btn-primary {
+	border: 0;
+	box-shadow: none;
+	color: #fff !important;
+	cursor: pointer;
+	height: 30px;
+	line-height: 28px;
+	overflow: visible;
+	padding: 0 20px;
+	background-color: #00abd8
+}
+
+.btn-primary:hover {
+	background-color: #008dba
+}
+
+a.btn {
+	padding: 6px 20px
+}
+
+.btn-block {
+	display: block;
+	text-align: center
+}
+
+.btn-inline a {
+	margin: 0 5px
+}
+
+.css-btn button {
+	display: inline !important;
+	line-height: normal
+}
+
+.css-btn-block {
+	display: block;
+	width: 100%;
+	margin-bottom: 5px
+}
+
+.css-btn-inline .btn {
+	margin-top: 20px !important;
+	margin-right: 15px
+}
+
+input {
+	outline: 0
+}
+
+.css-breadcrumb {
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	padding: 0 20px;
+	background-color: #fff
+}
+
+.container {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	*zoom: 1
+}
+
+.container:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.css-wrapper {
+	min-width: 1200px;
+	min-height: 100%;
+	margin: auto
+}
+
+.css-out-content {
+	padding: 40px 0 230px
+}
+
+.css-out-content:after {
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0
+}
+
+.css-sidelb {
+	position: fixed;
+	top: 300px;
+	z-index: 500
+}
+
+@media (min-width:1600px) {
+	.css-sidelb {
+		left: 100px
+	}
+}
+
+@media (max-width:1600px) {
+	.css-sidelb {
+		left: 10px
+	}
+}
+
+.css-siderb {
+	position: fixed;
+	top: 300px;
+	z-index: 500
+}
+
+@media (min-width:1600px) {
+	.css-siderb {
+		right: 100px
+	}
+}
+
+@media (max-width:1600px) {
+	.css-siderb {
+		right: 10px
+	}
+}
+
+* html .css-wrapper {
+	height: 100%
+}
+
+* html .css-out-content {
+	height: 1%
+}
+
+.css-vip {
+	margin-left: 5px;
+	vertical-align: middle
+}
+
+.css-table {
+	width: 100%;
+	max-width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+.css-table thead th {
+	padding: 8px;
+	border-top: 0 none;
+	vertical-align: bottom;
+	white-space: nowrap
+}
+
+.css-table tbody tr td {
+	padding: 8px;
+	vertical-align: middle;
+	text-align: center
+}
+
+.css-table-border {
+	border: 1px solid #ddd
+}
+
+.css-table-border thead tr th {
+	border-bottom-width: 2px;
+	border: 1px solid #ddd
+}
+
+.css-table-border tbody tr td {
+	padding: 8px;
+	vertical-align: middle;
+	border: 1px solid #ddd
+}
+
+.css-toprow {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto -40px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	background: #f5f5f5
+}
+
+.css-toprow ul {
+	line-height: 40px
+}
+
+.css-toprow ul li i {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 10px
+}
+
+
+.css-toprow ul li img {
+	vertical-align: middle
+}
+
+.css-toprow .css-code li {
+	position: relative
+}
+
+.css-toprow .css-code li .css-box {
+	display: none;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 118px;
+	height: 118px;
+	background-color: #fff;
+	border: 1px solid #00abd8;
+	text-align: center;
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s
+}
+
+.css-toprow .css-code li .css-box img {
+	margin-top: 4px;
+	width: 110px;
+	height: 110px
+}
+
+.css-toprow .css-code li .css-arrow {
+	display: none;
+	position: absolute;
+	border-width: 11px;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	top: 20px;
+	left: 50%;
+	margin-left: -11px;
+	border-top-width: 0;
+	border-bottom-color: #00abd8
+}
+
+.css-toprow .css-code li:hover .css-box,
+.css-toprow .css-code li:hover .css-arrow {
+	display: block;
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s
+}
+
+.css-toprow .pull-left li {
+	margin-right: 20px
+}
+
+.css-toprow .pull-right {
+	margin-right: -1px
+}
+
+.css-toprow .pull-right li {
+	margin-left: 20px;
+	padding-right: 15px;
+	border-right: 1px solid #ddd
+}
+
+.css-header {
+	height: 120px;
+	background-color: #fff
+}
+
+.css-header .css-logo {
+	width: 200px;
+	margin: 40px 20px 0 0
+}
+
+.css-header .css-subwebsite {
+	margin-top: 50px
+}
+
+.css-header .css-subwebsite b {
+	margin-right: 5px
+}
+
+.css-header .css-subwebsite .icon {
+	font-size: 16px
+}
+
+.css-header .css-right {
+	margin: 40px 50px 0 0
+}
+
+.css-header .css-right .css-search input[type=text] {
+	width: 360px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #00abd8;
+	padding: 0 20px;
+	color: #ccc;
+	float: left
+}
+
+.css-header .css-right .css-search input[type=submit] {
+	border: 0;
+	width: 60px;
+	height: 40px;
+	cursor: pointer;
+	position: relative;
+	left: -4px
+}
+
+.css-header .css-right .css-hot {
+	line-height: 40px;
+	margin-left: 30px
+}
+
+.css-header .css-right .css-hot li {
+	margin-right: 20px
+}
+
+.css-nav {
+	background: #00abd8;
+	font-weight: 700
+}
+
+.css-nav .css-usernav {
+	position: relative
+}
+
+.css-nav .css-usernav span {
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	width: 230px;
+	height: 100%;
+	background: #efc028;
+	color: #fff;
+	text-indent: 55px;
+	cursor: pointer;
+	font-size: 16px
+}
+
+.css-nav .css-usernav .css-channel {
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s
+}
+
+.css-nav .css-usernav:hover {
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s
+}
+
+.css-nav .css-usernav:hover .css-channel {
+	display: block
+}
+
+.css-nav .css-navbar>li {
+	float: left;
+	height: 50px;
+	line-height: 50px
+}
+
+.css-nav .css-navbar>li a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 0 40px;
+	font-size: 16px
+}
+
+.css-nav .css-navbar>li a:hover {
+	background: #00b8e5
+}
+
+.css-subnav {
+	margin-top: 10px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fff
+}
+
+.css-subnav li {
+	height: 38px;
+	line-height: 38px;
+	padding: 0 20px;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-top: 2px solid #fff;
+	float: left
+}
+
+.css-subnav li a {
+	color: #555
+}
+
+.css-subnav li a:hover {
+	color: #222
+}
+
+.css-subnav li:hover {
+	background-color: #fff;
+	height: 38px;
+	line-height: 38px;
+	border-top: 2px solid #00b8e5;
+	border-bottom: 0
+}
+
+.css-subnav .active {
+	background-color: #fff;
+	height: 38px;
+	line-height: 38px;
+	border-top: 2px solid #00b8e5;
+	border-bottom: 0
+}
+
+.css-subnav .active a {
+	color: #333
+}
+
+.css-channel {
+	width: 230px;
+	height: 350px;
+	background: #fff;
+	position: relative;
+	z-index: 1
+}
+
+.css-channel .css-menu {
+	margin-top: 10px
+}
+
+.css-channel .css-menu li a {
+	display: block;
+	width: 189px;
+	height: 39px;
+	line-height: 37px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	border-left: 1px solid #fff;
+	font-weight: 700;
+	padding: 0 20px;
+	position: relative;
+	z-index: 2
+}
+
+.css-channel .css-menu li a img {
+	position: relative;
+	top: 4px;
+	margin-right: 15px
+}
+
+.css-channel .css-menu li a span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 20px;
+	top: 10px
+}
+
+.css-channel .css-menu li .css-subMenu {
+	position: absolute;
+	top: 0;
+	left: 230px;
+	z-index: 0;
+	width: 957px;
+	height: 338px;
+	background: #fff;
+	border: 1px solid #00abd8;
+	padding: 10px 0 0 10px;
+	display: none
+}
+
+.css-channel .css-menu li .css-subMenu ul {
+	width: 212px;
+	height: 285px;
+	background: #fafafa;
+	margin: 20px 0 0 20px;
+	overflow: hidden;
+	float: left
+}
+
+.css-channel .css-menu li .css-subMenu ul li {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-channel .css-menu li .css-subMenu ul li a {
+	border: 0;
+	font-weight: 400;
+	margin-bottom: 0;
+	height: 36px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-channel .css-menu li .css-subMenu ul .css-title {
+	background: #00abd8;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	text-indent: 20px;
+	font-weight: 700;
+	margin-bottom: 10px
+}
+
+.css-channel .css-menu li .css-subMenu .css-lmbtn {
+	width: auto;
+	height: auto;
+	background-color: #fff
+}
+
+.css-channel .css-menu li .css-subMenu .css-lmbtn li {
+	margin-bottom: 10px
+}
+
+.css-channel .css-menu li .css-subMenu .css-lmbtn li .btn-primary {
+	height: 40px;
+	line-height: 40px;
+	padding: 0;
+	text-align: center
+}
+
+.css-channel .css-menu li .css-subMenu .css-lmtxt {
+	width: 330px;
+	background-color: #fff
+}
+
+.css-channel .css-menu li .css-subMenu .css-lmtxt .css-tit {
+	width: 100%;
+	line-height: normal;
+	height: 20px;
+	font-weight: bolder;
+	color: #000;
+	float: none;
+	background: 0 0
+}
+
+.css-channel .css-menu li .css-subMenu .css-lmtxt .css-tit:hover {
+	background-color: #fff
+}
+
+.css-channel .css-menu li .css-subMenu .css-lmtxt li {
+	width: 140px;
+	padding: 0 5px 0 15px;
+	height: 34px;
+	line-height: 34px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	float: left
+}
+
+.css-channel .css-menu li .css-subMenu .css-lmtxt li a {
+	width: 100%;
+	line-height: 34px;
+	display: block;
+	padding: 0
+}
+
+.css-channel .css-menu li .css-subMenu .css-sline {
+	width: 10px;
+	height: 329px;
+	float: left;
+	margin: 0 10px
+}
+
+.css-channel .css-menu li:hover a {
+	color: #00abd8;
+	border-top: 1px solid #00abd8;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #00abd8;
+	border-left: 1px solid #00abd8
+}
+
+.css-channel .css-menu li:hover a span {
+	display: none
+}
+
+.css-channel .css-menu li:hover .css-subMenu {
+	display: block
+}
+
+.css-channel .css-menu li:hover .css-subMenu ul li a {
+	color: #666
+}
+
+.css-channel .css-menu li:hover .css-subMenu ul li a:hover {
+	color: #00abd8
+}
+
+.css-channel .css-menu .css-menulink span {
+	display: none
+}
+
+.css-channel .css-menu .css-menulink:hover a {
+	border-color: #fff;
+	border-right: 0
+}
+
+.css-channel .css-menu .css-menulink .css-subMenu {
+	display: none !important
+}
+
+.css-main-index {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.css-main-index .css-slide {
+	width: 670px;
+	height: 350px;
+	background: #fff;
+	overflow: hidden;
+	float: left
+}
+
+.css-main-index .css-login-notice {
+	width: 300px;
+	height: 350px;
+	background: #fff;
+	overflow: hidden;
+	float: right
+}
+
+.css-main-index .css-login-notice .css-login {
+	margin: 20px 20px 10px
+}
+
+.css-main-index .css-login-notice .css-login .css-welcome {
+	margin-bottom: 15px;
+	width: 100%;
+	*zoom: 1
+}
+
+.css-main-index .css-login-notice .css-login .css-welcome:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.css-main-index .css-login-notice .css-login .css-welcome img {
+	float: left
+}
+
+.css-main-index .css-login-notice .css-login .css-welcome ul {
+	width: 175px;
+	float: left;
+	line-height: 24px;
+	margin: 10px 0 0 20px
+}
+
+.css-main-index .css-login-notice .css-login .css-welcome ul li {
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-main-index .css-login-notice .css-login .css-btn {
+	width: 100%;
+	height: auto;
+	overflow: hidden
+}
+
+.css-main-index .css-login-notice .css-login .css-btn li {
+	float: left
+}
+
+.css-main-index .css-login-notice .css-login .css-btn li a {
+	display: block;
+	width: 120px;
+	height: 35px;
+	line-height: 33px;
+	color: #fff;
+	text-align: center
+}
+
+.css-main-index .css-login-notice .css-login .css-btn li a:hover {
+	text-decoration: none
+}
+
+.css-main-index .css-login-notice .css-login .css-btn .css-btnlogin {
+	background: #f2572d
+}
+
+.css-main-index .css-login-notice .css-login .css-btn .css-btnlogin:hover {
+	background: #ff5d30
+}
+
+.css-main-index .css-login-notice .css-login .css-btn .css-btnregister {
+	background: #00abd8
+}
+
+.css-main-index .css-login-notice .css-login .css-btn .css-btnregister:hover {
+	background: #00b8e5
+}
+
+.css-main-index .css-login-notice .css-login .css-btn .css-btnlogin {
+	margin-right: 20px
+}
+
+.css-main-index .css-login-notice .css-notice {
+	margin: 0 15px 15px
+}
+
+.css-main-index .css-login-notice .css-notice .css-caption {
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: 700;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 5px
+}
+
+.css-main-index .css-login-notice .css-notice .css-caption span {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+
+	position: relative;
+	top: 5px;
+	margin-right: 10px
+}
+
+.css-main-index .css-login-notice .css-notice .css-caption .css-more {
+	font-size: 14px;
+	font-weight: 400
+}
+
+.css-main-index .css-login-notice .css-notice ul {
+	line-height: 31px
+}
+
+.css-main-index .css-login-notice .css-notice ul li {
+	width: 245px;
+
+	padding-left: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-main-index .css-imggroup ul {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #fff;
+	margin-top: 20px
+}
+
+.css-main-index .css-imggroup ul li {
+	width: 200px;
+	height: 90px;
+	border-bottom: 1px dashed #e5e5e5;
+	border-right: 1px dashed #e5e5e5;
+	margin-bottom: -1px;
+	margin-right: -1px;
+	float: left
+}
+
+.css-main-index .css-imggroup ul li img {
+	margin: 10px 0 0 10px
+}
+
+.css-main-index .css-imgline {
+	margin-top: 20px
+}
+
+.css-main-index .css-imgline img {
+	display: block;
+	width: 100%
+}
+
+.css-main-index .css-jobfair {
+	width: 793px;
+	height: 455px;
+	background: #fff;
+	float: left;
+	margin-bottom: 20px
+}
+
+.css-main-index .css-jobfair .css-caption ul {
+	float: left;
+	font-size: 16px
+}
+
+.css-main-index .css-jobfair .css-caption ul li {
+	float: left
+}
+
+.css-main-index .css-jobfair .css-caption ul li a {
+	display: block;
+	padding: 0 20px;
+	text-align: center;
+	margin-right: 10px
+}
+
+.css-main-index .css-jobfair .css-caption ul .current {
+	background: #00abd8;
+	color: #fff
+}
+
+.css-main-index .css-jobfair .css-caption ul .current a {
+	color: #fff;
+	font-size: 20px;
+	font-weight: bolder;
+	cursor: pointer
+}
+
+.css-main-index .css-jobfair .css-caption .css-more {
+	margin-right: 15px
+}
+
+.css-main-index .css-jobfair .css-content {
+	line-height: 36px;
+	margin: 20px
+}
+
+.css-main-index .css-jobfair .css-content li {
+
+	padding-left: 20px;
+	height: 36px
+}
+
+.css-main-index .css-jobfair .css-content li a {
+	width: 630px;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	*zoom: 1
+}
+
+.css-main-index .css-jobfair .css-content li a:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.css-main-index .css-jobfair .css-content li a img {
+	position: relative;
+	top: 2px;
+	margin-right: 5px
+}
+
+.css-main-index .css-jobfair .css-content li a span {
+	margin-right: 15px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-main-index .css-jobfair .css-content li time {
+	float: right;
+	color: #ccc
+}
+
+.css-main-index .css-calendar {
+	width: 387px;
+	height: 455px;
+	background: #fff;
+	float: right;
+	margin-bottom: 20px;
+	position: relative
+}
+
+.css-main-index .css-calendar .css-caption {
+	background: #00abd8;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff
+}
+
+.css-main-index .css-calendar .css-caption img {
+	position: relative;
+	top: 4px;
+	margin-right: 10px;
+	margin-left: 20px
+}
+
+.css-main-index .css-calendar .css-content .ui-datepicker-title {
+	font-size: 16px;
+	font-weight: bolder
+}
+
+.css-main-index .css-calendar .css-content .hasDatepicker {
+	padding: 0
+}
+
+.css-main-index .css-calendar .css-content #datepicker {
+	padding: 0
+}
+
+.css-main-index .css-calendar .css-content .ui-datepicker {
+	padding: 0
+}
+
+.css-main-index .css-calendar .css-content .ui-datepicker .ui-datepicker-today a,
+.css-main-index .css-calendar .css-content .ui-datepicker .ui-datepicker-today span {
+	background-color: #00abd8;
+	color: #fff !important;
+	border-radius: 50px
+}
+
+.css-main-index .css-calendar .css-content .ui-datepicker-header {
+	margin: 15px
+}
+
+.css-main-index .css-calendar .css-content .ui-datepicker-calendar {
+	border: 0
+}
+
+.css-main-index .css-calendar .css-content .ui-datepicker-calendar thead {
+	background-color: #fafafa
+}
+
+.css-main-index .css-calendar .css-content .ui-datepicker-calendar tr {
+	margin-top: 15px
+}
+
+.css-main-index .css-calendar .css-content .ui-datepicker-calendar td,
+.css-main-index .css-calendar .css-content .ui-datepicker-calendar th {
+	border: 0
+}
+
+.css-main-index .css-calendar .css-content .ui-datepicker-calendar td a,
+.css-main-index .css-calendar .css-content .ui-datepicker-calendar th a,
+.css-main-index .css-calendar .css-content .ui-datepicker-calendar td .ui-state-default,
+.css-main-index .css-calendar .css-content .ui-datepicker-calendar th .ui-state-default {
+	text-align: center;
+	line-height: 50px
+}
+
+.css-main-index .css-calendar .css-content .ui-datepicker-calendar .hasData a {
+	color: #f2572d;
+	font-weight: bolder
+}
+
+.css-main-index .css-calendar .css-content .ui-datepicker-calendar .hasData_last a {
+	color: #fb8f71
+}
+
+.css-main-index .css-jobfair,
+.css-main-index .css-calendar,
+.css-main-index .css-corphire,
+.css-main-index .css-hotjob,
+.css-main-index .css-talentmarket,
+.css-main-index .css-friendlink {
+	margin-top: 20px
+}
+
+.css-main-index .css-jobfair .css-caption,
+.css-main-index .css-calendar .css-caption,
+.css-main-index .css-corphire .css-caption,
+.css-main-index .css-hotjob .css-caption,
+.css-main-index .css-talentmarket .css-caption,
+.css-main-index .css-friendlink .css-caption {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #00abd8
+}
+
+.css-main-index .css-corphire,
+.css-main-index .css-hotjob,
+.css-main-index .css-talentmarket,
+.css-main-index .css-friendlink {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #fff
+}
+
+.css-main-index .css-corphire .css-caption div,
+.css-main-index .css-hotjob .css-caption div,
+.css-main-index .css-talentmarket .css-caption div,
+.css-main-index .css-friendlink .css-caption div {
+	width: 160px;
+	background: #00abd8;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	float: left
+}
+
+.css-main-index .css-corphire .css-caption div img,
+.css-main-index .css-hotjob .css-caption div img,
+.css-main-index .css-talentmarket .css-caption div img,
+.css-main-index .css-friendlink .css-caption div img {
+	position: relative;
+	top: 4px;
+	margin-right: 10px
+}
+
+.css-main-index .css-corphire .css-logos,
+.css-main-index .css-hotjob .css-logos,
+.css-main-index .css-talentmarket .css-logos,
+.css-main-index .css-friendlink .css-logos {
+	height: auto;
+	overflow: hidden;
+	padding: 0
+}
+
+.css-main-index .css-corphire .css-logos li,
+.css-main-index .css-hotjob .css-logos li,
+.css-main-index .css-talentmarket .css-logos li,
+.css-main-index .css-friendlink .css-logos li {
+	float: left;
+	margin: 0;
+	text-align: center;
+	width: 240px;
+	height: 100px
+}
+
+.css-main-index .css-corphire .css-logos li img,
+.css-main-index .css-hotjob .css-logos li img,
+.css-main-index .css-talentmarket .css-logos li img,
+.css-main-index .css-friendlink .css-logos li img {
+	height: 50px;
+	margin: 10px auto;
+	display: block;
+	width: 148px
+}
+
+.css-main-index .css-corphire .css-logos li p,
+.css-main-index .css-hotjob .css-logos li p,
+.css-main-index .css-talentmarket .css-logos li p,
+.css-main-index .css-friendlink .css-logos li p {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	height: 22px;
+	padding: 0 15px
+}
+
+.css-main-index .css-hotjob,
+.css-main-index .css-talentmarket {
+	margin-top: 20px
+}
+
+.css-main-index .css-hotjob .css-content,
+.css-main-index .css-talentmarket .css-content {
+	height: auto;
+	overflow: hidden;
+	padding: 5px 0
+}
+
+.css-main-index .css-hotjob .css-content ul,
+.css-main-index .css-talentmarket .css-content ul {
+	float: left;
+	width: 287px;
+	height: auto;
+	overflow: hidden;
+	line-height: 26px;
+	margin: 5px 0 0 5px
+}
+
+.css-main-index .css-hotjob .css-content ul li,
+.css-main-index .css-talentmarket .css-content ul li {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-main-index .css-hotjob .css-content ul li a,
+.css-main-index .css-talentmarket .css-content ul li a {
+	margin-right: 5px
+}
+
+.css-main-index .css-hotjob .css-content ul li img,
+.css-main-index .css-talentmarket .css-content ul li img {
+	vertical-align: top;
+	width: 20px;
+	position: relative;
+	top: 3px;
+	left: 3px
+}
+
+.css-main-index .css-hotjob .css-content .css-ujobs,
+.css-main-index .css-talentmarket .css-content .css-ujobs {
+	border-bottom: 1px dashed #00abd8;
+	padding-bottom: 15px;
+	margin: 0 15px;
+	*zoom: 1
+}
+
+.css-main-index .css-hotjob .css-content .css-ujobs:after,
+.css-main-index .css-talentmarket .css-content .css-ujobs:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-main-index .css-hotjob .css-content .css-njobs,
+.css-main-index .css-talentmarket .css-content .css-njobs {
+	padding: 6px 0;
+	margin: 0 15px;
+	*zoom: 1
+}
+
+.css-main-index .css-hotjob .css-content .css-njobs:after,
+.css-main-index .css-talentmarket .css-content .css-njobs:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-main-index .css-talentmarket .css-content {
+	line-height: 30px;
+	margin: 0
+}
+
+.css-main-index .css-talentmarket .css-content ul {
+	margin: 0;
+	width: 100%;
+	*zoom: 1
+}
+
+.css-main-index .css-talentmarket .css-content ul:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-main-index .css-talentmarket .css-content ul li {
+
+	padding-left: 20px;
+	height: 30px;
+	width: 560px;
+	margin-left: 10px;
+	float: left
+}
+
+.css-main-index .css-talentmarket .css-content ul li a {
+	height: 100%;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	*zoom: 1
+}
+
+.css-main-index .css-talentmarket .css-content ul li a:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.css-main-index .css-talentmarket .css-content ul li a img {
+	position: relative;
+	top: 2px;
+	margin-right: 5px
+}
+
+.css-main-index .css-talentmarket .css-content ul li a span {
+	display: block;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-main-index .css-talentmarket .css-content ul li time {
+	float: right;
+	color: #ccc
+}
+
+.css-main-index .css-corphire {
+	margin-top: 20px
+}
+
+.css-main-index .css-corphire .css-content {
+	height: auto;
+	overflow: hidden;
+	padding: 10px 0
+}
+
+.css-main-index .css-corphire .css-content ul {
+	*zoom: 1
+}
+
+.css-main-index .css-corphire .css-content ul:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.css-main-index .css-corphire .css-content ul li {
+	width: 275px;
+	height: auto;
+	line-height: 30px;
+	margin-left: 20px;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-main-index .css-corphire .css-content ul li a {
+	margin-right: 5px
+}
+
+.css-main-index .css-jobfair .css-caption .css-applylink,
+.css-main-index .css-corphire .css-caption .css-applylink,
+.css-main-index .css-hotjob .css-caption .css-applylink,
+.css-main-index .css-talentmarket .css-caption .css-applylink,
+.css-main-index .css-friendlink .css-caption .css-applylink {
+	background: #ccc;
+	color: #fff;
+	line-height: 20px;
+	margin-top: 10px;
+	padding: 5px 15px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px
+}
+
+.css-main-index .css-jobfair .css-caption .css-applylink a,
+.css-main-index .css-corphire .css-caption .css-applylink a,
+.css-main-index .css-hotjob .css-caption .css-applylink a,
+.css-main-index .css-talentmarket .css-caption .css-applylink a,
+.css-main-index .css-friendlink .css-caption .css-applylink a {
+	color: #fff
+}
+
+.css-main-index .css-jobfair .css-caption .css-applylink:hover,
+.css-main-index .css-corphire .css-caption .css-applylink:hover,
+.css-main-index .css-hotjob .css-caption .css-applylink:hover,
+.css-main-index .css-talentmarket .css-caption .css-applylink:hover,
+.css-main-index .css-friendlink .css-caption .css-applylink:hover {
+	background-color: #00abd8
+}
+
+.css-main-index .css-jobfair .css-caption span,
+.css-main-index .css-corphire .css-caption span,
+.css-main-index .css-hotjob .css-caption span,
+.css-main-index .css-talentmarket .css-caption span,
+.css-main-index .css-friendlink .css-caption span {
+	float: right;
+	margin-right: 20px
+}
+
+.css-main-index .css-friendlink ul {
+	height: auto;
+	overflow: hidden;
+	line-height: 30px;
+	margin: 25px 0
+}
+
+.css-main-index .css-friendlink ul li {
+	float: left;
+	margin-left: 20px
+}
+
+.css-zixun-list .css-con>.css-title {
+	background-color: #00abd8;
+	color: #fff;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px
+}
+
+.css-zixun-list .css-con>.css-title .css-link {
+	color: #fff
+}
+
+.css-zixun-list .css-con .css-content {
+	margin-top: 0;
+	border: 0
+}
+
+.css-zixun-list .css-con .css-content .css-title {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	border-bottom: 1px solid #ddd
+}
+
+.css-zixun-list .css-con .css-content .css-ngroup {
+	min-height: 114px;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	*zoom: 1
+}
+
+.css-zixun-list .css-con .css-content .css-ngroup:hover {
+	background-color: #efefef
+}
+
+.css-zixun-list .css-con .css-content .css-ngroup:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-zixun-list .css-con .css-content .css-ngroup .css-headimg {
+	width: 114px;
+	height: 130px
+}
+
+.css-zixun-list .css-con .css-content .css-ngroup .css-headimg img {
+	width: 100%;
+	height: 100%;
+	display: block
+}
+
+.css-zixun-list .css-con .css-content .css-ngroup .css-info {
+	width: 650px;
+	min-height: 114px;
+	margin-left: 15px
+}
+
+.css-zixun-list .css-con .css-content .css-ngroup .css-info p {
+	display: block;
+	margin-bottom: 6px
+}
+
+.css-zixun-list .css-con .css-content .css-ngroup .css-info .css-textoverflow {
+	height: 60px;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.css-zixun-list .css-con .css-content .css-ngroup .css-info .css-number {
+	font-size: 20px;
+	font-weight: bolder;
+	display: inline
+}
+
+.css-zixun-list .css-con .css-content .css-ngroup .btn {
+	margin-top: 30px
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page {
+	padding: 15px
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page .css-lgroup {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	min-height: 70px
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page .css-lgroup h3 {
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 20px
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page .css-name {
+	font-size: 20px;
+	display: block
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page .css-head-port {
+	float: right
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page .css-head-port img {
+	display: block;
+	width: 116px;
+	height: 116px
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page .css-conlist {
+	margin-top: 30px;
+	padding: 0 20px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 30px;
+	*zoom: 1
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page .css-conlist:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page .css-conlist:last-child {
+	border-bottom: 0
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page .css-conlist .css-photo {
+	float: right;
+	width: 114px;
+	height: 115px
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page .css-conlist .css-photo img {
+	display: block;
+	width: 114px;
+	height: 115px
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page .css-list-inline {
+	margin-top: 15px;
+	margin-left: -5px
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page .css-list-inline li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	padding-left: 5px;
+	padding-right: 10px;
+	border-right: 1px solid #ddd
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page .css-list-inline li:last-child {
+	border: 0
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page .css-list-inline li .css-btn {
+	background-color: #f67f00;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+	height: 32px;
+	text-align: center;
+	padding: 6px 12px;
+	outline: 0;
+	border: 0
+}
+
+.css-zixun-list .css-con .css-content .css-talent-page p {
+	margin-top: 10px
+}
+
+.css-zixun-list .css-con .css-content>.css-tit {
+	background-color: #efefef;
+	height: 35px;
+	line-height: 35px;
+	margin: 15px 0;
+	padding: 0 15px
+}
+
+.css-zixun-list .css-con .css-content h2,
+.css-zixun-list .css-con .css-content p {
+	margin-bottom: 10px
+}
+
+.css-zixun-list .css-con .css-content .css-largefairs-table .css-table td {
+	line-height: 30px;
+	vertical-align: middle
+}
+
+.css-zixun-list .css-con .css-content .css-largefairs-table .css-table td input,
+.css-zixun-list .css-con .css-content .css-largefairs-table .css-table td select {
+	vertical-align: middle;
+	margin-left: 10px;
+	padding: 2px 10px;
+	box-shadow: none;
+	border: 1px solid #ddd
+}
+
+.css-zixun-list .css-con .css-content .css-largefairs-table .css-table td textarea {
+	border: 1px solid #ddd;
+	box-shadow: none;
+	resize: none
+}
+
+.css-zixun-list .css-con .css-content .css-largefairs-table .css-table td span {
+	vertical-align: middle
+}
+
+.css-zixun-list .css-con .css-content .css-largefairs-table .css-recruit {
+	margin-top: -1px;
+	margin-bottom: 20px
+}
+
+.css-zixun-list .css-con .css-content .css-largefairs-table .css-recruit td,
+.css-zixun-list .css-con .css-content .css-largefairs-table .css-recruit th {
+	line-height: 30px;
+	vertical-align: middle
+}
+
+.css-zixun-list .css-con .css-content .css-largefairs-table .css-recruit td input,
+.css-zixun-list .css-con .css-content .css-largefairs-table .css-recruit th input,
+.css-zixun-list .css-con .css-content .css-largefairs-table .css-recruit td select,
+.css-zixun-list .css-con .css-content .css-largefairs-table .css-recruit th select {
+	margin-left: 0;
+	width: 61px
+}
+
+.css-zixun-list .css-con .css-content .css-content-footer {
+	border-top: 1px solid #ddd;
+	padding: 15px
+}
+
+.css-zixun-list .css-con .css-province,
+.css-zixun-list .css-con .css-release {
+	margin: 15px 0
+}
+
+.css-zixun-list .css-con .css-province b,
+.css-zixun-list .css-con .css-release b {
+	display: block;
+	padding: 0 15px 15px;
+	font-size: 16px;
+	border-bottom: 1px solid #ddd
+}
+
+.css-zixun-list .css-con .css-province>.css-list,
+.css-zixun-list .css-con .css-release>.css-list {
+	margin-bottom: 15px;
+	*zoom: 1
+}
+
+.css-zixun-list .css-con .css-province>.css-list:after,
+.css-zixun-list .css-con .css-release>.css-list:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-zixun-list .css-con .css-province>.css-list li,
+.css-zixun-list .css-con .css-release>.css-list li {
+	width: 197px;
+	height: 95px;
+	margin: 15px 0 0 15px;
+	border: 1px solid #efefef;
+	position: relative;
+	float: left
+}
+
+.css-zixun-list .css-con .css-province>.css-list li>label,
+.css-zixun-list .css-con .css-release>.css-list li>label {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0
+}
+
+.css-zixun-list .css-con .css-province>.css-list li>label input[type=radio],
+.css-zixun-list .css-con .css-release>.css-list li>label input[type=radio],
+.css-zixun-list .css-con .css-province>.css-list li>label [type=checkbox],
+.css-zixun-list .css-con .css-release>.css-list li>label [type=checkbox] {
+	width: 16px;
+	height: 16px;
+	margin-top: 10px;
+	position: absolute;
+	left: 50%;
+	margin-left: -8px
+}
+
+.css-zixun-list .css-con .css-province>.css-list li p,
+.css-zixun-list .css-con .css-release>.css-list li p {
+	height: 40px;
+	line-height: 20px;
+	font-weight: bolder;
+	display: block;
+	text-align: center;
+	margin-top: 15px;
+	padding: 0 10px;
+	margin-bottom: 10px
+}
+
+.css-zixun-list .css-con .css-province>.css-list li .btn,
+.css-zixun-list .css-con .css-release>.css-list li .btn {
+	display: block;
+	margin-bottom: 0;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	float: none;
+	background-color: #5bc0de
+}
+
+.css-zixun-list .css-con .css-province>.css-list li a,
+.css-zixun-list .css-con .css-release>.css-list li a {
+	font-size: 12px
+}
+
+.css-zixun-list .css-con .css-province>.css-list li:hover,
+.css-zixun-list .css-con .css-release>.css-list li:hover {
+	border-color: #5bc0de;
+	cursor: pointer
+}
+
+.css-zixun-list .css-con .css-release>.css-list li {
+	height: 85px
+}
+
+.css-zixun-list .css-con .css-release>.css-list li p {
+	margin-top: 35px
+}
+
+.css-zixun-list .css-con .resume {
+	padding: 0
+}
+
+.css-zixun-list .css-con .view3 {
+	width: 941px
+}
+
+.css-zixun-list .css-con .rsd {
+	padding: 15px
+}
+
+.css-vip-page .css-vipnav {
+	width: 230px;
+	margin-top: 15px;
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+	float: left
+}
+
+.css-vip-page .css-vipnav .css-link {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	font-size: 14px;
+	background-color: #00abd8;
+	color: #fff
+}
+
+.css-vip-page .css-vipnav .css-link a {
+	color: #fff
+}
+
+.css-vip-page .css-vipnav .css-group {
+	min-height: 74px;
+	border: 1px solid #ddd;
+	border-top: 0;
+	padding-bottom: 10px
+}
+
+.css-vip-page .css-vipnav .css-group .css-title {
+	height: 30px;
+	line-height: 30px;
+	padding: 0 15px;
+	background-color: #efefef
+}
+
+.css-vip-page .css-vipnav .css-group ul {
+	*zoom: 1
+}
+
+.css-vip-page .css-vipnav .css-group ul:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-vip-page .css-vipnav .css-group ul li {
+	display: block;
+	width: 50%;
+	margin-top: 10px;
+	text-align: center;
+	float: left
+}
+
+.css-vip-page .css-vipnav .css-group ul li a {
+	height: 24px;
+	line-height: 24px;
+	display: block
+}
+
+.css-vip-page .css-searchbox {
+	padding: 15px 0;
+	margin-top: 15px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	*zoom: 1
+}
+
+.css-vip-page .css-searchbox:hover {
+	border-color: #00abd8
+}
+
+.css-vip-page .css-searchbox:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-vip-page .css-searchbox dl {
+	margin-left: 20px;
+	padding: 0 5px
+}
+
+.css-vip-page .css-searchbox dl dt {
+	margin-bottom: 5px;
+	height: 20px;
+	line-height: 20px
+}
+
+.css-vip-page .css-searchbox dl dd {
+	background-color: #fff;
+	height: 24px
+}
+
+.css-vip-page .css-searchbox dl dd input {
+	height: 22px;
+	line-height: 22px;
+	border: 1px solid #ddd;
+	box-shadow: none;
+	background: 0 0;
+	padding: 0 10px;
+	margin-right: 10px
+}
+
+.css-vip-page .css-searchbox dl dd select {
+	height: 22px;
+	line-height: 22px;
+	border: 1px solid #ddd;
+	box-shadow: none;
+	background: 0 0;
+	margin-right: 10px
+}
+
+.css-vip-page .css-searchbox dl dd i {
+	padding: 0 10px;
+	font-style: normal
+}
+
+.css-vip-page .css-searchbox dl dd span {
+	margin: 0 10px 0 0
+}
+
+.css-vip-page .css-searchbox dl .css-col148 input,
+.css-vip-page .css-searchbox dl .css-col170 input,
+.css-vip-page .css-searchbox dl .css-col148 select,
+.css-vip-page .css-searchbox dl .css-col170 select {
+	width: 100%
+}
+
+.css-vip-page .css-searchbox .css-btn {
+	margin-top: 22px;
+	margin-left: 20px
+}
+
+.css-vip-page .css-searchbox .css-btn button {
+	height: 30px;
+	line-height: 28px;
+	background-color: #00abd8;
+	border: 0;
+	box-shadow: none;
+	padding: 0 20px;
+	color: #fff;
+	cursor: pointer;
+	overflow: visible
+}
+
+.css-vip-page .css-searchbox .css-result {
+	border-top: 1px solid #ddd;
+	margin: 15px 0 -15px 0;
+	padding: 15px 20px;
+	background-color: #efefef;
+	*zoom: 1
+}
+
+.css-vip-page .css-searchbox .css-result:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-vip-page .css-searchbox .css-result p {
+	font-size: 12px
+}
+
+.css-vip-page .css-searchbox .css-result .css-btn {
+	margin-top: 10px
+}
+
+.css-vip-page .css-nosearch {
+	padding: 0;
+	border-top: 0
+}
+
+.css-vip-page .css-nosearch .css-result {
+	margin: 0
+}
+
+.css-vip-page .css-vipcontent {
+	width: 950px;
+	float: right;
+	margin-top: 15px;
+	border: 1px solid #e6e6e6;
+	background-color: #fff
+}
+
+.css-vip-page .css-vipcontent>.css-title {
+	background-color: #00abd8;
+	color: #fff;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px
+}
+
+.css-vip-page .css-vipcontent>.css-title .css-link {
+	color: #fff
+}
+
+.css-vip-page .css-vipcontent .css-tip {
+	height: 38px;
+	line-height: 38px;
+	padding: 0 15px;
+	border: 1px solid #00abd8;
+	background-color: #e1f9ff
+}
+
+.css-vip-page .css-vipcontent .css-caption {
+	height: 39px;
+	line-height: 39px;
+	padding: 0 15px;
+	border-bottom: 1px solid #ddd;
+	background-color: #efefef
+}
+
+.css-vip-page .css-vipcontent .css-ucon {
+	border: 1px solid #ddd;
+	margin-bottom: 15px;
+	border-top: 0;
+	padding: 15px
+}
+
+.css-vip-page .css-vipcontent .css-ucon .css-infolist {
+	display: block;
+	padding-bottom: 20px;
+	*zoom: 1
+}
+
+.css-vip-page .css-vipcontent .css-ucon .css-infolist:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-vip-page .css-vipcontent .css-ucon .css-infolist li {
+	display: block;
+	width: 48%;
+	float: left;
+	margin-bottom: 10px;
+	padding-right: 15px
+}
+
+.css-vip-page .css-vipcontent .css-ucon .css-infolist2 {
+	margin: -15px
+}
+
+.css-vip-page .css-vipcontent .css-ucon .css-infolist2 li {
+	*zoom: 1;
+	display: block;
+	padding: 8px 15px;
+	border-bottom: 1px solid #ddd
+}
+
+.css-vip-page .css-vipcontent .css-ucon .css-infolist2 li:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-vip-page .css-vipcontent .css-ucon .css-infolist2 li:last-child {
+	border-bottom: 0
+}
+
+.css-vip-page .css-vipcontent .css-ucon .css-infolist2 li span {
+	display: block;
+	width: 33.3%;
+	float: left
+}
+
+.css-vip-page .css-vipcontent .css-ucon ul span li {
+	line-height: 24px
+}
+
+.css-vip-page .css-vipcontent .css-content {
+	margin: 15px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-check {
+	text-align: center;
+	margin: 15px 0
+}
+
+.css-vip-page .css-vipcontent .css-content .css-check input[type=checkbox] {
+	margin: -3px 5px 0 0;
+	vertical-align: middle
+}
+
+.css-vip-page .css-vipcontent .css-content .css-title {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	border-bottom: 1px solid #ddd
+}
+
+.css-vip-page .css-vipcontent .css-content .css-title li {
+	color: #333;
+	float: left;
+	margin-left: 10px;
+	font-weight: bolder
+}
+
+.css-vip-page .css-vipcontent .css-content .css-list li {
+	border-top: 1px solid #f6f6f6;
+	padding: 0 10px;
+	line-height: 49px;
+	*zoom: 1
+}
+
+.css-vip-page .css-vipcontent .css-content .css-list li:hover {
+	background-color: #f6f6f6
+}
+
+.css-vip-page .css-vipcontent .css-content .css-list li:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.css-vip-page .css-vipcontent .css-content .css-list li a,
+.css-vip-page .css-vipcontent .css-content .css-list li span,
+.css-vip-page .css-vipcontent .css-content .css-list li time {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	float: left;
+	margin-left: 10px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-list li span a {
+	margin: 0 10px 0 0;
+	float: none;
+	display: inline
+}
+
+.css-vip-page .css-vipcontent .css-content .css-list li span .btn {
+	margin: 9px 0 0
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo {
+	margin-top: 40px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-upload .img_img,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-upload .img_img {
+	border: 1px solid #ccc;
+	height: 250px;
+	margin: 10px 10px 0 0;
+	width: 250px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-upload .css-group,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-upload .css-group {
+	margin-top: 10px;
+	margin-left: 250px;
+	padding: 0;
+	width: 275px;
+	border: 0 !important
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-upload .css-group .btn,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-upload .css-group .btn {
+	background-color: #00abd8;
+	height: auto;
+	left: 0
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-upload .css-tit,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-upload .css-tit {
+	width: auto;
+	left: 265px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-tips,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-tips {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 15px;
+	font-size: 12px;
+	float: left
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group {
+	position: relative;
+	vertical-align: top;
+	*zoom: 1
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group:after,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-tit,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-tit {
+	width: 135px;
+	text-align: right;
+	color: #666;
+	line-height: 30px;
+	position: absolute;
+	left: 90px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-group,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-group {
+	width: 220px;
+	margin-left: 250px;
+	margin-bottom: 10px;
+	padding: 0 5px;
+	border: 1px solid #ddd;
+	min-height: 30px;
+	height: auto;
+	position: relative
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-group input[type=text],
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-group input[type=text],
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-group [type=password],
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-group [type=password],
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-group [type=mail],
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-group [type=mail],
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-group select,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-group select {
+	width: 210px;
+	height: 20px;
+	outline: 0;
+	background-color: #fff;
+	border: 0;
+	box-shadow: none;
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	top: 5px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-group label,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-group label {
+	min-width: 50px;
+	margin: 8px 15px 0 0;
+	float: left
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-group label input[type=radio],
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-group label input[type=radio] {
+	margin-right: 5px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-group i,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-group i {
+	font-style: normal
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-tips,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-tips {
+	position: absolute;
+	top: 0;
+	left: 480px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-textarea,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-textarea {
+	width: 210px;
+	padding: 10px 0;
+	border: 0;
+	height: auto;
+	resize: none
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-textarea textarea,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-textarea textarea {
+	width: 100%;
+	height: 200px;
+	border: 0;
+	box-shadow: none;
+	outline: 0;
+	resize: none
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-upload,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-upload {
+	width: 232px;
+	height: 232px;
+	border: 0;
+	padding: 0
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-upload img,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-upload img {
+	width: 100%;
+	height: 100%;
+	display: block
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-input-group .css-radio,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-radio {
+	line-height: 30px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-yzm .css-group,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-yzm .css-group {
+	width: 90px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-yzm .css-group input[type=text],
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-yzm .css-group input[type=text],
+.css-vip-page .css-vipcontent .css-content .css-form .css-yzm .css-group [type=password],
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-yzm .css-group [type=password],
+.css-vip-page .css-vipcontent .css-content .css-form .css-yzm .css-group [type=mail],
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-yzm .css-group [type=mail],
+.css-vip-page .css-vipcontent .css-content .css-form .css-yzm .css-group select,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-yzm .css-group select {
+	width: 80px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-yzm img,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-yzm img {
+	width: 120px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	margin-left: 140px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-check,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-check {
+	text-align: center;
+	margin: 15px 0
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-check input[type=checkbox],
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-check input[type=checkbox] {
+	margin: -3px 5px 0 0;
+	vertical-align: middle
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-btn,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-btn {
+	margin: 40px 100px 0;
+	text-align: center
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-btn a,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-btn a,
+.css-vip-page .css-vipcontent .css-content .css-form .css-btn button,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-btn button {
+	display: block
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-btn .css-btn-block,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-btn .css-btn-block {
+	width: 100%;
+	height: 100%
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-error p,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-error p {
+	margin-left: 50px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-end,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-end {
+	padding: 0 30px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-end .icon-ok-sign,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-end .icon-ok-sign {
+	color: #71b83d
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-end ul,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-end ul {
+	margin-top: 15px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-end ul li,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-end ul li {
+	margin-bottom: 1px;
+	margin-left: 1%;
+	width: 48%;
+	float: left
+}
+
+.css-vip-page .css-vipcontent .css-content .css-form .css-end ul li .btn,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-end ul li .btn {
+	display: block;
+	text-align: center
+}
+
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-tit,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-upload .css-tit {
+	width: auto;
+	left: 265px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-input-group .css-group,
+.css-vip-page .css-vipcontent .css-content .css-updatelogo .css-upload .css-group {
+	margin-left: 375px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup,
+.css-vip-page .css-vipcontent .css-content .css-ngroup {
+	min-height: 114px;
+	padding: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	*zoom: 1
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup:hover,
+.css-vip-page .css-vipcontent .css-content .css-ngroup:hover {
+	border-color: #00abd8
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup:after,
+.css-vip-page .css-vipcontent .css-content .css-ngroup:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-date,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-date,
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-headimg,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-headimg {
+	width: 114px;
+	height: 114px;
+
+	border-radius: 5px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-date p,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-date p,
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-headimg p,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-headimg p {
+	color: #fff;
+	height: 30px;
+	line-height: 30px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-date b,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-date b,
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-headimg b,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-headimg b {
+	display: block;
+	font-size: 35px;
+	color: #000
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-headimg,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-headimg {
+	height: 130px;
+	background: 0 0
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-headimg img,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-headimg img {
+	width: 100%;
+	height: 100%;
+	display: block
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-uimg,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-uimg {
+	width: 114px;
+	height: 114px;
+
+	border-radius: 5px;
+	width: 80px;
+	height: 80px;
+	background: 0 0
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-uimg p,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-uimg p {
+	color: #fff;
+	height: 30px;
+	line-height: 30px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-uimg b,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-uimg b {
+	display: block;
+	font-size: 35px;
+	color: #000
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-uimg img,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-uimg img {
+	width: 100%;
+	display: block
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-info,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-info {
+	width: 650px;
+	min-height: 114px;
+	margin-left: 15px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-info b,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-info b,
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-info p,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-info p {
+	display: block;
+	margin-bottom: 6px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-info b,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-info b {
+	font-size: 16px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-info p a,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-info p a {
+	margin-left: 10px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-info .css-number,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-info .css-number {
+	font-size: 20px;
+	font-weight: bolder;
+	display: inline
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .btn,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .btn {
+	margin-top: 30px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-scheck,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-scheck {
+	width: 24px;
+	height: 24px;
+	margin-top: 3px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-jobtext,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-jobtext,
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-cpytext,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-cpytext {
+	width: 500px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-jobtext b,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-jobtext b,
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-cpytext b,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-cpytext b {
+	font-size: 16px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-jobtext li,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-jobtext li,
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-cpytext li,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-cpytext li {
+	margin-right: 10px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-lgroup .css-cpytext,
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-cpytext {
+	width: 400px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-ngroup {
+	margin: 0;
+	margin-top: -1px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-info b {
+	font-size: 14px;
+	display: inline
+}
+
+.css-vip-page .css-vipcontent .css-content .css-ngroup .css-info .css-textoverflow {
+	height: 60px;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.css-vip-page .css-vipcontent .css-content .css-ngroup:hover {
+	border-color: #ddd;
+	background-color: #efefef
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page {
+	padding: 15px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page .css-lgroup {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	min-height: 70px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page .css-lgroup h3 {
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 20px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page .css-name {
+	font-size: 20px;
+	display: block
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page .css-head-port {
+	float: right
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page .css-head-port img {
+	display: block;
+	width: 116px;
+	height: 116px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page .css-conlist {
+	margin-top: 30px;
+	padding: 0 20px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 30px;
+	*zoom: 1
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page .css-conlist:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page .css-conlist:last-child {
+	border-bottom: 0
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page .css-conlist .css-photo {
+	float: right;
+	width: 114px;
+	height: 115px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page .css-conlist .css-photo img {
+	display: block;
+	width: 114px;
+	height: 115px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page .css-list-inline {
+	margin-top: 15px;
+	margin-left: -5px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page .css-list-inline li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	padding-left: 5px;
+	padding-right: 10px;
+	border-right: 1px solid #ddd
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page .css-list-inline li:last-child {
+	border: 0
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page .css-list-inline li .css-btn {
+	background-color: #f67f00;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+	height: 32px;
+	text-align: center;
+	padding: 6px 12px;
+	outline: 0;
+	border: 0
+}
+
+.css-vip-page .css-vipcontent .css-content .css-talent-page p {
+	margin-top: 10px
+}
+
+.css-vip-page .css-vipcontent .css-content>.css-tit {
+	background-color: #efefef;
+	height: 35px;
+	line-height: 35px;
+	margin: 15px 0;
+	padding: 0 15px
+}
+
+.css-vip-page .css-vipcontent .css-content h2,
+.css-vip-page .css-vipcontent .css-content p {
+	margin-bottom: 10px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-largefairs-table .css-table td {
+	line-height: 30px;
+	vertical-align: middle
+}
+
+.css-vip-page .css-vipcontent .css-content .css-largefairs-table .css-table td input,
+.css-vip-page .css-vipcontent .css-content .css-largefairs-table .css-table td select {
+	vertical-align: middle;
+	margin-left: 10px;
+	padding: 2px 10px;
+	box-shadow: none;
+	border: 1px solid #ddd
+}
+
+.css-vip-page .css-vipcontent .css-content .css-largefairs-table .css-table td textarea {
+	border: 1px solid #ddd;
+	box-shadow: none;
+	resize: none
+}
+
+.css-vip-page .css-vipcontent .css-content .css-largefairs-table .css-table td span {
+	vertical-align: middle
+}
+
+.css-vip-page .css-vipcontent .css-content .css-largefairs-table .css-recruit {
+	margin-top: -1px;
+	margin-bottom: 20px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-largefairs-table .css-recruit td,
+.css-vip-page .css-vipcontent .css-content .css-largefairs-table .css-recruit th {
+	line-height: 30px;
+	vertical-align: middle
+}
+
+.css-vip-page .css-vipcontent .css-content .css-largefairs-table .css-recruit td input,
+.css-vip-page .css-vipcontent .css-content .css-largefairs-table .css-recruit th input,
+.css-vip-page .css-vipcontent .css-content .css-largefairs-table .css-recruit td select,
+.css-vip-page .css-vipcontent .css-content .css-largefairs-table .css-recruit th select {
+	margin-left: 0;
+	width: 61px
+}
+
+.css-vip-page .css-vipcontent .css-content .css-content-footer {
+	border-top: 1px solid #ddd;
+	padding: 15px
+}
+
+.css-vip-page .css-vipcontent .css-province,
+.css-vip-page .css-vipcontent .css-release {
+	margin: 15px 0
+}
+
+.css-vip-page .css-vipcontent .css-province b,
+.css-vip-page .css-vipcontent .css-release b {
+	display: block;
+	padding: 0 15px 15px;
+	font-size: 16px;
+	border-bottom: 1px solid #ddd
+}
+
+.css-vip-page .css-vipcontent .css-province>.css-list,
+.css-vip-page .css-vipcontent .css-release>.css-list {
+	margin-bottom: 15px;
+	*zoom: 1
+}
+
+.css-vip-page .css-vipcontent .css-province>.css-list:after,
+.css-vip-page .css-vipcontent .css-release>.css-list:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-vip-page .css-vipcontent .css-province>.css-list li,
+.css-vip-page .css-vipcontent .css-release>.css-list li {
+	width: 197px;
+	height: 95px;
+	margin: 15px 0 0 15px;
+	border: 1px solid #efefef;
+	position: relative;
+	float: left
+}
+
+.css-vip-page .css-vipcontent .css-province>.css-list li>label,
+.css-vip-page .css-vipcontent .css-release>.css-list li>label {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0
+}
+
+.css-vip-page .css-vipcontent .css-province>.css-list li>label input[type=radio],
+.css-vip-page .css-vipcontent .css-release>.css-list li>label input[type=radio],
+.css-vip-page .css-vipcontent .css-province>.css-list li>label [type=checkbox],
+.css-vip-page .css-vipcontent .css-release>.css-list li>label [type=checkbox] {
+	width: 16px;
+	height: 16px;
+	margin-top: 10px;
+	position: absolute;
+	left: 50%;
+	margin-left: -8px
+}
+
+.css-vip-page .css-vipcontent .css-province>.css-list li p,
+.css-vip-page .css-vipcontent .css-release>.css-list li p {
+	height: 40px;
+	line-height: 20px;
+	font-weight: bolder;
+	display: block;
+	text-align: center;
+	margin-top: 15px;
+	padding: 0 10px;
+	margin-bottom: 10px
+}
+
+.css-vip-page .css-vipcontent .css-province>.css-list li .btn,
+.css-vip-page .css-vipcontent .css-release>.css-list li .btn {
+	display: block;
+	margin-bottom: 0;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	float: none;
+	background-color: #5bc0de
+}
+
+.css-vip-page .css-vipcontent .css-province>.css-list li a,
+.css-vip-page .css-vipcontent .css-release>.css-list li a {
+	font-size: 12px
+}
+
+.css-vip-page .css-vipcontent .css-province>.css-list li:hover,
+.css-vip-page .css-vipcontent .css-release>.css-list li:hover {
+	border-color: #5bc0de;
+	cursor: pointer
+}
+
+.css-vip-page .css-vipcontent .css-release>.css-list li {
+	height: 85px
+}
+
+.css-vip-page .css-vipcontent .css-release>.css-list li p {
+	margin-top: 35px
+}
+
+.css-vip-page .css-vipcontent .resume {
+	padding: 0
+}
+
+.css-vip-page .css-vipcontent .view3 {
+	width: 941px
+}
+
+.css-vip-page .css-vipcontent .rsd {
+	padding: 15px
+}
+
+.css-main-list {
+	width: 100%;
+	height: auto;
+	overflow: hidden
+}
+
+.css-main-list .css-searchbox {
+	padding: 15px 0;
+	margin-top: 15px;
+	height: 55px;
+	background-color: #f5f5f5;
+	border: 1px solid #ddd;
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	*zoom: 1
+}
+
+.css-main-list .css-searchbox:hover {
+	border-color: #00abd8
+}
+
+.css-main-list .css-searchbox:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.css-main-list .css-searchbox dl {
+	margin-left: 20px;
+	padding: 0 5px
+}
+
+.css-main-list .css-searchbox dl dt {
+	margin-bottom: 5px;
+	height: 20px;
+	line-height: 20px
+}
+
+.css-main-list .css-searchbox dl dd {
+	padding: 0 10px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	overflow: hidden
+}
+
+.css-main-list .css-searchbox dl dd input,
+.css-main-list .css-searchbox dl dd select,
+.css-main-list .css-searchbox dl dd i {
+	height: 24px;
+	line-height: 24px;
+	border: 0;
+	box-shadow: none;
+	display: block;
+	background: 0 0;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-main-list .css-searchbox dl dd i {
+	font-style: normal
+}
+
+.css-main-list .css-searchbox .css-keywords {
+	width: 450px
+}
+
+.css-main-list .css-searchbox .css-input {
+	width: 150px
+}
+
+.css-main-list .css-searchbox .css-btn {
+	margin-top: 22px;
+	margin-left: 20px
+}
+
+.css-main-list .css-searchbox .css-btn button {
+	height: 30px;
+	line-height: 28px;
+	background-color: #00abd8;
+	border: 0;
+	box-shadow: none;
+	padding: 0 20px;
+	color: #fff;
+	cursor: pointer;
+	overflow: visible
+}
+
+.css-main-list .css-choosebox {
+	margin-top: 15px;
+	background-color: #fff;
+	padding: 15px;
+	min-height: 1%;
+	border: 1px solid #e6e6e6;
+	*zoom: 1
+}
+
+.css-main-list .css-choosebox:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-main-list .css-choosebox .css-row dt {
+	float: left;
+	width: 80px;
+	overflow: hidden;
+	clear: left;
+	text-align: right;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: bolder;
+	margin-bottom: 10px;
+	padding: 3px 0
+}
+
+.css-main-list .css-choosebox .css-row dd {
+	margin-left: 90px;
+	margin-bottom: 10px;
+	*zoom: 1
+}
+
+.css-main-list .css-choosebox .css-row dd:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-main-list .css-choosebox .css-row dd a {
+	padding: 3px 6px;
+	line-height: 24px
+}
+
+.css-main-list .css-choosebox .css-row dd .active {
+	color: #fff;
+	background-color: #00abd8
+}
+
+.css-main-list .css-areacon {
+	width: 200px;
+	margin-top: 20px;
+	border-top: 1px solid #ddd;
+	background-color: #fff;
+	float: left
+}
+
+.css-main-list .css-areacon .css-title {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	font-size: 16px;
+	background-color: #00abd8;
+	color: #fff
+}
+
+.css-main-list .css-areacon ul {
+	width: 198px;
+	border: 1px solid #ddd
+}
+
+.css-main-list .css-areacon ul li {
+	border-top: 1px solid #f6f6f6;
+	line-height: 49px;
+	padding: 0 10px
+}
+
+.css-main-list .css-areacon ul li a {
+	display: block
+}
+
+.css-main-list .css-areacon ul li .icon {
+	line-height: 50px;
+	display: none
+}
+
+.css-main-list .css-areacon ul .active a {
+	text-align: center;
+	font-size: 16px;
+	color: #00abd8
+}
+
+.css-main-list .css-areacon ul .active .icon {
+	display: block;
+	line-height: 50px
+}
+
+.css-main-list .css-content {
+	margin-top: 20px;
+	border: 1px solid #e6e6e6;
+	background-color: #fff
+}
+
+.css-main-list .css-content .css-title {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	border-bottom: 1px solid #ddd
+}
+
+.css-main-list .css-content .css-title li {
+	color: #333;
+	float: left;
+	margin-left: 10px
+}
+
+.css-main-list .css-content .css-list li {
+	border-top: 1px solid #f6f6f6;
+	padding: 0 10px 0 15px;
+	line-height: 49px;
+
+	background-position: 5px 16px;
+	*zoom: 1
+}
+
+.css-main-list .css-content .css-list li:hover {
+	background-color: #f6f6f6
+}
+
+.css-main-list .css-content .css-list li:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.css-main-list .css-content .css-list li a,
+.css-main-list .css-content .css-list li span,
+.css-main-list .css-content .css-list li time {
+	color: #333;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	float: left;
+	margin-left: 10px
+}
+
+.css-main-list .css-content .css-list li a {
+	color: #00abd8
+}
+
+.css-main-list .css-arcon {
+	width: 980px;
+	float: right
+}
+
+.css-main-list .css-largefairs,
+.css-main-list .css-jobfairs {
+	width: 100%;
+	float: none;
+	border: 0
+}
+
+.css-main-list .css-largefairs .css-content,
+.css-main-list .css-jobfairs .css-content {
+	border: 0;
+	margin: 0
+}
+
+.css-main-list .css-largefairs .css-content .css-lgroup,
+.css-main-list .css-jobfairs .css-content .css-lgroup {
+	border: 1px solid #ddd;
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s
+}
+
+.css-main-list .css-largefairs .css-content .css-lgroup:hover,
+.css-main-list .css-jobfairs .css-content .css-lgroup:hover {
+	border-color: #00abd8
+}
+
+.css-main-list .css-largefairs .css-content .css-allcheck,
+.css-main-list .css-jobfairs .css-content .css-allcheck {
+	padding: 0 15px
+}
+
+.css-main-list .css-largefairs .css-content .btn-zoom,
+.css-main-list .css-jobfairs .css-content .btn-zoom {
+	width: 120px;
+	margin-right: 30px;
+	float: right
+}
+
+.css-main-list .css-largefairs .css-content .btn-zoom a.btn,
+.css-main-list .css-jobfairs .css-content .btn-zoom a.btn {
+	margin-top: 10px;
+	display: block;
+	text-align: center
+}
+
+.css-main-list .css-largefairs .css-content .btn-zoom p,
+.css-main-list .css-jobfairs .css-content .btn-zoom p {
+	width: 100%;
+	height: 30px;
+	line-height: 30px
+}
+
+.css-main-list .css-yjb {
+	border-color: #ddd !important;
+	position: relative
+}
+
+.css-main-list .css-yjb:hover {
+	border-color: #ddd
+}
+
+.css-main-list .css-yjb .css-status {
+	width: 51px;
+	height: 51px;
+
+	position: absolute;
+	top: -5px;
+	right: -5px
+}
+
+.css-main-list .css-yjb .css-date {
+
+}
+
+.css-main-list .css-yjb .css-info a:hover {
+	color: #555
+}
+
+.css-main-list .css-yjb .btn-zoom a.btn {
+	background-color: #999;
+	color: #555
+}
+
+.css-main-list .css-kyd {
+	position: relative
+}
+
+.css-main-list .css-kyd .css-status {
+	width: 51px;
+	height: 51px;
+
+	position: absolute;
+	top: 0;
+	right: 0
+}
+
+.css-auth-page .caption {
+	height: 44px;
+	line-height: 44px;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #00abd8;
+	margin-top: 15px;
+	padding: 0 15px;
+	font-size: 16px;
+	color: #00abd8;
+	background: #fafafa
+}
+
+.css-auth-page .caption img {
+	margin-right: 10px;
+	position: relative;
+	top: 3px
+}
+
+.css-auth-page .caption .more {
+	float: right;
+	font-size: 14px;
+	color: #555
+}
+
+.css-auth-page .content {
+	padding-bottom: 45px;
+	background-color: #fff;
+	*zoom: 1
+}
+
+.css-auth-page .content .procedure {
+	padding: 50px 0 30px;
+	border-bottom: 1px solid #ddd
+}
+
+.css-auth-page .content .procedure ul {
+	width: 850px;
+	margin: 0 auto;
+	*zoom: 1
+}
+
+.css-auth-page .content .procedure ul:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-auth-page .content .procedure ul li {
+	width: 282px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	position: relative
+}
+
+.css-auth-page .content .procedure ul li span {
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	margin: 0 auto;
+	display: block
+}
+
+.css-auth-page .content .procedure ul li p {
+	height: 24px;
+	line-height: 24px
+}
+
+.css-auth-page .content .procedure ul li .line {
+	height: 3px;
+	width: 130px;
+	background-color: #bdbdbd
+}
+
+.css-auth-page .content .procedure ul li .lightline {
+	height: 3px;
+	width: 130px;
+	background-color: #34a1df
+}
+
+.css-auth-page .content .procedure ul li .left {
+	position: absolute;
+	left: 0;
+	top: 12px
+}
+
+.css-auth-page .content .procedure ul li .right {
+	position: absolute;
+	right: 0;
+	top: 12px
+}
+
+.css-auth-page .content .choosebox {
+	margin: 0 auto;
+	padding-top: 45px;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+	text-align: center
+}
+
+.css-auth-page .content .choosebox>.link {
+	overflow: hidden;
+	width: 265px;
+	height: 300px;
+	text-align: center;
+	margin: 0 10px;
+	font-size: 18px;
+	display: inline-block;
+	background-color: #eee;
+	color: #000
+}
+
+.css-auth-page .content .choosebox>.link .fa {
+	display: block;
+	margin: 60px 0 5px;
+	font-size: 70px;
+	color: #333
+}
+
+.css-auth-page .content .choosebox>.link p {
+	font-size: 12px;
+	color: #555;
+	margin-top: 15px;
+	padding: 0 10px
+}
+
+.css-auth-page .form {
+	margin: 15px
+}
+
+.css-auth-page .form .form-group {
+	margin-bottom: 15px;
+	width: 100%;
+	zoom: 1;
+	*zoom: 1
+}
+
+.css-auth-page .form .form-group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-auth-page .form .form-group label {
+	float: left;
+	vertical-align: top;
+	width: 330px;
+	font-size: 14px;
+	height: 34px;
+	line-height: 34px;
+	text-align: right;
+	margin-right: 15px
+}
+
+.css-auth-page .form .form-group label span {
+	padding-left: 5px
+}
+
+.css-auth-page .form .form-group input,
+.css-auth-page .form .form-group i {
+	width: 320px;
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	padding: 0 15px;
+	border: 1px solid #ddd;
+	box-shadow: none;
+	outline: 0;
+	color: #555;
+	background-color: #fafafa;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-auth-page .form .form-group input:focus,
+.css-auth-page .form .form-group i:focus {
+	border-color: #00abd8
+}
+
+.css-auth-page .form .form-group>span {
+	*zoom: 1
+}
+
+.css-auth-page .form .form-group>span:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-auth-page .form .form-group>span>input {
+	width: 24px;
+	float: none
+}
+
+.css-auth-page .form .form-group .select {
+	width: 352px;
+	float: left
+}
+
+.css-auth-page .form .form-group .select select {
+	border: 1px solid #ddd;
+	line-height: 22px;
+	*height: 22px;
+	*margin: -2px;
+	color: #555;
+	padding: 8px 14px;
+	font-size: 13px;
+	width: 352px;
+	*width: 344px
+}
+
+.css-auth-page .form .form-group .select .chosen-container {
+	width: 352px !important;
+	*width: 344px !important
+}
+
+.css-auth-page .form .form-group .select.two select,
+.css-auth-page .form .form-group .select.two .chosen-container {
+	width: 173px !important;
+	*width: 165px !important
+}
+
+.css-auth-page .form .form-group .select.three select,
+.css-auth-page .form .form-group .select.three .chosen-container {
+	width: 114px !important;
+	*width: 106px !important
+}
+
+.css-auth-page .form .form-group .select .chosen-container-single .chosen-search input[type=text] {
+	width: 100%;
+	padding: 4px 20px 4px 5px;
+	height: auto;
+	line-height: normal;
+	float: none
+}
+
+.css-auth-page .form .form-group .select .chosen-container-single .chosen-single {
+	border-color: #ddd;
+	border-radius: 0;
+	box-shadow: none;
+	height: 38px;
+	line-height: 37px
+}
+
+.css-auth-page .form .form-group .select .chosen-container-single .chosen-single:focus {
+	border-color: #00abd8
+}
+
+.css-auth-page .form .form-group .select .chosen-container-single .chosen-single div b {
+	background-position: 0 9px
+}
+
+.css-auth-page .form .form-group .select .chosen-container .chosen-drop {
+	border-left-color: #00abd8;
+	border-bottom-color: #00abd8;
+	border-right-color: #00abd8;
+	border-radius: 0
+}
+
+.css-auth-page .form .form-group .select .chosen-container-active .chosen-single {
+	border-color: #00abd8
+}
+
+.css-auth-page .form .form-group .error {
+	border-color: red;
+	color: red
+}
+
+.css-auth-page .form .form-group .error .chosen-container-single .chosen-single {
+	border-color: red;
+	color: red
+}
+
+.css-auth-page .form .form-group .upload {
+	width: 352px;
+	height: 352px;
+	float: left;
+	position: relative
+}
+
+.css-auth-page .form .form-group .upload input[type=file] {
+	border: 0;
+	position: absolute;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	float: none;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	cursor: pointer
+}
+
+.css-auth-page .form .form-group .upload .addimg {
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #ddd;
+	z-index: 1;
+	cursor: pointer
+}
+
+.css-auth-page .form .form-group .upload .delete {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 2;
+	cursor: pointer
+}
+
+.css-auth-page .form .form-group .upload .delete i.fa-remove {
+	background: 0 0;
+	border: 0;
+	box-shadow: none;
+	float: none;
+	height: auto;
+	line-height: normal;
+	width: auto;
+	padding: 0
+}
+
+.css-auth-page .form .form-group .moxie-shim.moxie-shim-html5 {
+	z-index: 1 !important
+}
+
+.css-auth-page .form .form-group .moxie-shim.moxie-shim-flash {
+	z-index: 1 !important
+}
+
+.css-auth-page .form .form-group .textarea {
+	width: 333px;
+	height: 100px;
+	padding: 8px;
+	border: 1px solid #ddd;
+	resize: none;
+	font-size: 14px;
+	float: left;
+	overflow-y: auto
+}
+
+.css-auth-page .form .form-group .textarea:focus {
+	border-color: #00abd8
+}
+
+.css-auth-page .form .form-group .number {
+	width: 200px
+}
+
+.css-auth-page .form .form-group .msg-btn {
+	width: 105px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	overflow: hidden;
+	padding: 0;
+	margin-left: 15px;
+	font-size: 12px;
+	float: left
+}
+
+.css-auth-page .form .form-group .yzm-img {
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	margin-left: 15px;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+	border: 1px solid #ddd;
+	width: 103px;
+	cursor: pointer
+}
+
+.css-auth-page .form .form-group .tip {
+	width: 450px;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	margin-left: 15px;
+	color: #888;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-auth-page .form .form-group .tip.Validform_checktip {
+	width: auto
+}
+
+.css-auth-page .form .form-group .tip.Validform_wrong {
+	color: red
+}
+
+.css-auth-page .form .form-group .tip.Validform_right {
+	color: #71b83d
+}
+
+.css-auth-page .form .form-group .check {
+	text-align: center;
+	margin: 0;
+	height: auto;
+	width: auto;
+	margin-left: 345px
+}
+
+.css-auth-page .form .form-group .check input {
+	width: auto;
+	float: none;
+	height: 19px;
+	line-height: 19px;
+	position: relative;
+	top: 4px;
+	border: 0;
+	background: 0 0;
+	padding: 0
+}
+
+.css-auth-page .form .form-text {
+	width: 700px;
+	margin: 0 auto 15px;
+	background-color: #00abd8;
+	border: 1px solid #00abd8;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 15px;
+	text-align: center
+}
+
+.css-auth-page .form .submit {
+	width: 352px;
+	margin: 15px 0 30px 345px
+}
+
+.css-auth-page .form .submit .btn {
+	padding-top: 6px;
+	padding-bottom: 6px
+}
+
+.css-auth-page .tbox {
+	width: 800px;
+	padding: 35px 0;
+	margin: 0 auto;
+	text-align: center
+}
+
+.css-auth-page .tbox div {
+	font-size: 16px;
+	margin: 10px 0 40px
+}
+
+.css-auth-page .tbox div .pl {
+	width: 317px;
+	margin: 0 auto
+}
+
+.css-auth-page .tbox div .pl li {
+	float: right;
+	width: 150px;
+	text-align: center;
+	margin-right: -75px
+}
+
+.css-auth-page .tbox div .pl li:first-child {
+	float: left;
+	margin-left: -75px
+}
+
+.css-auth-page .tbox p {
+	margin-top: 5px
+}
+
+.css-auth-page .tbox .info .form .form-group label {
+	width: 230px
+}
+
+.css-auth-page .tbox .info .form .form-group .tip {
+	margin-left: 245px;
+	font-size: 14px;
+	text-align: left
+}
+
+.css-auth-page .tbox .info .form .form-group .check {
+	width: 100%;
+	text-align: left;
+	margin-left: 245px
+}
+
+.css-auth-page .tbox .info .form .form-group .submit {
+	text-align: left;
+	margin-left: 245px
+}
+
+.css-auth-page .tbox .info .form .form-group .input_major {
+	border-color: #eee !important
+}
+
+.css-auth-page .tbox .info .form .form-group .input_major #btn_IndustryID {
+	background-color: #f9f9f9 !important
+}
+
+.css-auth-page .tbox .info .form .form-group textarea {
+	border: 1px solid #ddd;
+	box-shadow: none;
+	padding: 6px;
+	resize: none;
+	background-color: #fff
+}
+
+.css-auth-page .tbox .info .form .form-group textarea:focus {
+	border: 1px solid #f26222;
+}
+
+.css-main-xc {
+	background-color: #fff
+}
+
+.css-main-xc .css-banner {
+	width: 1200px;
+	overflow: hidden;
+
+	position: relative
+}
+
+.css-main-xc .css-banner img {
+	width: 100%;
+	height: 100%;
+	display: block
+}
+
+.css-main-xc .css-ys {
+	*zoom: 1;
+	padding-left: 100px;
+	margin-top: 30px
+}
+
+.css-main-xc .css-ys:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-main-xc .css-ys li {
+	margin-left: 50px;
+	float: left
+}
+
+.css-main-xc .css-ys li a {
+	display: block
+}
+
+.css-main-xc .css-text-line {
+	margin-top: 30px;
+	width: 1200px;
+	height: 153px;
+	color: #fff;
+	overflow: hidden;
+
+}
+
+.css-main-xc .css-text-line .css-text {
+	width: 700px;
+	margin: 45px 0 0 350px;
+	font-size: 16px;
+	line-height: 26px
+}
+
+.css-main-xc .css-text-line2 {
+	margin-top: 30px;
+	width: 1200px;
+	height: 153px;
+	color: #fff;
+	overflow: hidden;
+
+}
+
+.css-main-xc .css-text-line2 .css-text {
+	width: 700px;
+	margin: 45px 0 0 350px;
+	font-size: 16px;
+	line-height: 26px
+}
+
+.css-main-xc .css-description {
+	width: 900px;
+	margin: 30px auto 0
+}
+
+.css-main-xc .css-description table {
+	width: 100%;
+	text-align: center
+}
+
+.css-main-xc .css-description table tr {
+	text-align: center
+}
+
+.css-main-xc .css-description table tr td,
+.css-main-xc .css-description table tr th {
+	min-width: 120px;
+	padding: 20px 8px;
+	text-align: center;
+	border: 1px solid #ddd
+}
+
+.css-main-xc .css-description table .css-bg1 {
+	background-color: #f2f2f2
+}
+
+.css-main-xc .css-description table .css-color1 {
+	color: #FF8903
+}
+
+.css-main-xc .css-description table .css-font1 {
+	font-size: 18px
+}
+
+.css-main-xc .css-imgbox {
+	width: 885px;
+	height: 1850px;
+	margin: 30px auto;
+	padding-bottom: 30px
+}
+
+.css-main-content .css-content {
+	margin-top: 20px
+}
+
+.css-main-content .css-content .css-main .css-content-header {
+	background-color: #e6e7e8;
+	padding: 20px
+}
+
+.css-main-content .css-content .css-main .css-content-header h2 {
+	color: #000;
+	font-size: 24px
+}
+
+.css-main-content .css-content .css-main .css-content-header .css-article-info {
+	min-height: 50px;
+	background-color: #fff;
+	margin-top: 10px;
+	padding: 15px;
+	*zoom: 1
+}
+
+.css-main-content .css-content .css-main .css-content-header .css-article-info:after {
+	content: "\200B";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.css-main-content .css-content .css-main .css-content-header .css-article-info li {
+	width: 50%;
+	float: left;
+	margin-bottom: 5px;
+	color: #333;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-main-content .css-content .css-main .css-content-header .css-article-info li span {
+	color: #999
+}
+
+.css-main-content .css-content .css-main .css-content-header .css-applybtn {
+	height: 40px;
+	padding: 0 15px;
+	margin-bottom: 10px;
+	background-color: #fff
+}
+
+.css-main-content .css-content .css-main .css-article-content {
+	margin-top: 20px
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-heading {
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 0 0 20px
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-heading .css-share {
+	width: 260px;
+	float: right
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-heading .css-share .css-txt {
+	float: left;
+	padding-left: 10px
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-heading .css-share .jiathis_style {
+	margin: 8px 0 0 5px;
+	padding-top: 10px;
+	*zoom: 1
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-heading .css-share .jiathis_style:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content {
+	margin: 0;
+	border: 0;
+	padding: 15px 30px;
+	background-color: #fff
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content img {
+	max-width: 100%
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-title {
+	margin-bottom: 10px;
+	font-size: 24px
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content p {
+	margin-bottom: 10px
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-tit {
+	background-color: #efefef;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 15px;
+	margin: 15px 0
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-lgroup {
+	border: 1px solid #ddd;
+	margin-bottom: -1px;
+	min-height: 60px;
+	*zoom: 1
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-lgroup:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-lgroup .css-city {
+	height: 100%;
+	min-height: 100%;
+	line-height: 100%;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 18px;
+	vertical-align: middle;
+	padding: 30px 0
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-lgroup .css-list {
+	width: 1000px;
+	height: 100%;
+	min-height: 60px;
+	float: right;
+	border-left: 1px solid #ddd;
+	padding: 15px 0
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-lgroup .css-list li {
+	width: 31%;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 15px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	float: left
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-info {
+	background-color: #efefef;
+	margin: 15px 0
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-info .css-caption {
+	height: 35px;
+	line-height: 35px
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-info .css-caption ul {
+	float: left
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-info .css-caption ul li {
+	margin-right: 10px;
+	float: left
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-info .css-caption ul li a {
+	text-align: center;
+	display: block;
+	padding: 0 20px
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-info .css-caption ul .current {
+	background: #00abd8;
+	color: #fff
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-info .css-caption ul .current a {
+	color: #fff;
+	cursor: pointer
+}
+
+.css-main-content .css-content .css-main .css-article-content .css-content .css-info .css-content {
+	padding: 15px 0 0
+}
+
+.hot {
+
+}
+
+.hot a {
+	color: red;
+	text-align: right
+}
+
+.css-main-u .css-reg-header {
+	width: 100%;
+	background-color: #1f2833;
+	height: 47px;
+	line-height: 47px;
+	color: #fff
+}
+
+.css-main-u .css-reg-banner,
+.css-main-u .css-middle-banner,
+.css-main-u .css-log-banner {
+	width: 100%;
+	min-height: 750px;
+	overflow: hidden;
+
+}
+
+.css-main-u .css-reg-banner .css-help,
+.css-main-u .css-middle-banner .css-help,
+.css-main-u .css-log-banner .css-help,
+.css-main-u .css-reg-banner .css-tips,
+.css-main-u .css-middle-banner .css-tips,
+.css-main-u .css-log-banner .css-tips {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 15px;
+	font-size: 12px;
+	float: left
+}
+
+.css-main-u .css-reg-banner .css-text,
+.css-main-u .css-middle-banner .css-text,
+.css-main-u .css-log-banner .css-text {
+	width: 500px;
+	margin-left: 120px;
+	float: left
+}
+
+.css-main-u .css-reg-banner .css-conbox,
+.css-main-u .css-middle-banner .css-conbox,
+.css-main-u .css-log-banner .css-conbox {
+	width: 410px;
+	padding: 20px;
+	margin: 75px 0 0 100px;
+	border: 1px solid #ddd;
+	background: #fff;
+	float: left
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-title,
+.css-main-u .css-middle-banner .css-conbox .css-title,
+.css-main-u .css-log-banner .css-conbox .css-title {
+	font-size: 18px;
+	border-bottom: 1px solid #ddd;
+	margin: 0 -20px;
+	padding: 0 15px 15px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-title>small,
+.css-main-u .css-middle-banner .css-conbox .css-title>small,
+.css-main-u .css-log-banner .css-conbox .css-title>small {
+	font-size: 14px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-procedure,
+.css-main-u .css-middle-banner .css-conbox .css-procedure,
+.css-main-u .css-log-banner .css-conbox .css-procedure {
+	min-height: 24px;
+	margin-top: 15px;
+	text-align: center
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-procedure li,
+.css-main-u .css-middle-banner .css-conbox .css-procedure li,
+.css-main-u .css-log-banner .css-conbox .css-procedure li {
+	height: 24px;
+	line-height: 24px;
+	padding: 0 6px;
+	text-align: center
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main,
+.css-main-u .css-middle-banner .css-conbox .css-main,
+.css-main-u .css-log-banner .css-conbox .css-main {
+	margin-top: 20px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-binds,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-binds,
+.css-main-u .css-log-banner .css-conbox .css-main .css-binds {
+	height: 200px;
+	padding-top: 50px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-binds a,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-binds a,
+.css-main-u .css-log-banner .css-conbox .css-main .css-binds a {
+	color: #fff;
+	padding: 15px 15px 15px 150px;
+	display: block;
+	margin-bottom: 30px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-binds a:hover,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-binds a:hover,
+.css-main-u .css-log-banner .css-conbox .css-main .css-binds a:hover {
+	opacity: .8
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group {
+	position: relative;
+	vertical-align: top;
+	*zoom: 1
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group:after,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group:after,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-tit,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-tit,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-tit {
+	width: 135px;
+	text-align: right;
+	color: #666;
+	line-height: 30px;
+	position: absolute;
+	left: 90px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-group,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-group,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-group {
+	width: 220px;
+	margin-left: 250px;
+	margin-bottom: 15px;
+	padding: 0 5px;
+	border: 1px solid #ddd;
+	min-height: 30px;
+	height: auto;
+	position: relative
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-group select,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-group select,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-group select {
+	width: 210px;
+	height: 20px;
+	outline: 0;
+	background-color: #fff;
+	box-shadow: none;
+	border: 0;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	right: 10px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-group select.chosen,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-group select.chosen,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-group select.chosen {
+	top: 0
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-group input[type=password],
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-group input[type=password],
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-group input[type=password],
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-group input[type=text],
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-group input[type=text],
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-group input[type=text],
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-group input[type=email],
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-group input[type=email],
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-group input[type=email],
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-group input select,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-group input select,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-group input select,
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-group input textarea,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-group input textarea,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-group input textarea {
+	width: 210px;
+	height: 20px;
+	outline: 0;
+	background-color: #fff;
+	border: 0;
+	box-shadow: none;
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	top: 5px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-group label,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-group label,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-group label {
+	min-width: 50px;
+	margin: 8px 15px 0 0
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-group label input[type=radio],
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-group label input[type=radio],
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-group label input[type=radio] {
+	margin-right: 5px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-group.number,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-group.number,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-group.number {
+	border: 0;
+	position: relative
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-group.number input,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-group.number input,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-group.number input {
+	width: 200px !important;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 0 10px;
+	height: 30px;
+	border: 1px solid #ddd
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-group.number .msg-btn,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-group.number .msg-btn,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-group.number .msg-btn {
+	right: 0;
+	height: 32px;
+	line-height: 30px;
+	position: absolute;
+	width: 100px;
+	padding: 0;
+	text-align: center
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-radio-inline,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-radio-inline,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-radio-inline {
+	padding-top: 5px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-radio-inline input,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-radio-inline input,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-radio-inline input,
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-radio-inline label,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-radio-inline label,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-radio-inline label {
+	vertical-align: middle
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-tips,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-tips,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-tips {
+	position: absolute;
+	top: 0;
+	left: 480px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-textarea,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-textarea,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-textarea {
+	padding: 0;
+	border: 0
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-textarea textarea,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-textarea textarea,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-textarea textarea {
+	height: 205px;
+	border: 0;
+	box-shadow: none;
+	outline: 0;
+	resize: none
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-upload,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-upload,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-upload {
+	width: 232px;
+	height: 232px;
+	border: 0;
+	padding: 0
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-input-group .css-upload img,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-input-group .css-upload img,
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-upload img {
+	width: 100%;
+	height: 100%;
+	display: block
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-select-group,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-select-group,
+.css-main-u .css-log-banner .css-conbox .css-main .css-select-group {
+	height: 30px;
+	margin-bottom: 15px;
+	position: relative;
+	z-index: 100
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-select-group .css-group,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-select-group .css-group,
+.css-main-u .css-log-banner .css-conbox .css-main .css-select-group .css-group {
+	position: absolute;
+	z-index: 100
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-yzm .css-group,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-yzm .css-group,
+.css-main-u .css-log-banner .css-conbox .css-main .css-yzm .css-group {
+	width: 90px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-yzm .css-group input,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-yzm .css-group input,
+.css-main-u .css-log-banner .css-conbox .css-main .css-yzm .css-group input {
+	width: 80px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-yzm .css-group input[type=text],
+.css-main-u .css-middle-banner .css-conbox .css-main .css-yzm .css-group input[type=text],
+.css-main-u .css-log-banner .css-conbox .css-main .css-yzm .css-group input[type=text],
+.css-main-u .css-reg-banner .css-conbox .css-main .css-yzm .css-group input [type=password],
+.css-main-u .css-middle-banner .css-conbox .css-main .css-yzm .css-group input [type=password],
+.css-main-u .css-log-banner .css-conbox .css-main .css-yzm .css-group input [type=password],
+.css-main-u .css-reg-banner .css-conbox .css-main .css-yzm .css-group input [type=email],
+.css-main-u .css-middle-banner .css-conbox .css-main .css-yzm .css-group input [type=email],
+.css-main-u .css-log-banner .css-conbox .css-main .css-yzm .css-group input [type=email],
+.css-main-u .css-reg-banner .css-conbox .css-main .css-yzm .css-group input select,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-yzm .css-group input select,
+.css-main-u .css-log-banner .css-conbox .css-main .css-yzm .css-group input select {
+	width: 80px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-yzm img,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-yzm img,
+.css-main-u .css-log-banner .css-conbox .css-main .css-yzm img {
+	width: 120px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	margin-left: 360px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-check,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-check,
+.css-main-u .css-log-banner .css-conbox .css-main .css-check {
+	text-align: center;
+	margin: 15px 0
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-check input[type=checkbox],
+.css-main-u .css-middle-banner .css-conbox .css-main .css-check input[type=checkbox],
+.css-main-u .css-log-banner .css-conbox .css-main .css-check input[type=checkbox] {
+	margin: -3px 5px 0 0;
+	vertical-align: middle
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-btn,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-btn,
+.css-main-u .css-log-banner .css-conbox .css-main .css-btn {
+	margin: 20px 100px 0;
+	text-align: center
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-btn a,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-btn a,
+.css-main-u .css-log-banner .css-conbox .css-main .css-btn a,
+.css-main-u .css-reg-banner .css-conbox .css-main .css-btn button,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-btn button,
+.css-main-u .css-log-banner .css-conbox .css-main .css-btn button {
+	display: block
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-btn .css-btn-block,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-btn .css-btn-block,
+.css-main-u .css-log-banner .css-conbox .css-main .css-btn .css-btn-block {
+	width: 100%
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-error p,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-error p,
+.css-main-u .css-log-banner .css-conbox .css-main .css-error p {
+	margin-left: 50px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-end,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-end,
+.css-main-u .css-log-banner .css-conbox .css-main .css-end {
+	padding: 0 30px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-end .icon-ok-sign,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-end .icon-ok-sign,
+.css-main-u .css-log-banner .css-conbox .css-main .css-end .icon-ok-sign {
+	color: #71b83d
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-end ul,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-end ul,
+.css-main-u .css-log-banner .css-conbox .css-main .css-end ul {
+	margin-top: 15px
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-end ul li,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-end ul li,
+.css-main-u .css-log-banner .css-conbox .css-main .css-end ul li {
+	margin-bottom: 1px;
+	margin-left: 1%;
+	width: 48%;
+	float: left
+}
+
+.css-main-u .css-reg-banner .css-conbox .css-main .css-end ul li .btn,
+.css-main-u .css-middle-banner .css-conbox .css-main .css-end ul li .btn,
+.css-main-u .css-log-banner .css-conbox .css-main .css-end ul li .btn {
+	display: block;
+	text-align: center
+}
+
+.css-main-u .css-reg-banner .css-middle-page,
+.css-main-u .css-middle-banner .css-middle-page,
+.css-main-u .css-log-banner .css-middle-page {
+	width: 1000px;
+	height: 300px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	left: 50%;
+	z-index: 100;
+	margin: 195px 0 0 -500px
+}
+
+.css-main-u .css-reg-banner .css-middle-page .css-link,
+.css-main-u .css-middle-banner .css-middle-page .css-link,
+.css-main-u .css-log-banner .css-middle-page .css-link {
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin: 0 15px;
+	font-size: 30px;
+	display: inline-block;
+
+	opacity: .8;
+
+	filter: alpha(opacity=80);
+	*
+
+	color: #00abd8
+}
+
+.css-main-u .css-reg-banner .css-middle-page .css-link:hover,
+.css-main-u .css-middle-banner .css-middle-page .css-link:hover,
+.css-main-u .css-log-banner .css-middle-page .css-link:hover {
+
+	color: #fff;
+	transition-duration: 2s;
+	-moz-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	-o-transition-duration: 2s
+}
+
+.css-main-u .css-reg-banner .css-middle-page .css-link .icon,
+.css-main-u .css-middle-banner .css-middle-page .css-link .icon,
+.css-main-u .css-log-banner .css-middle-page .css-link .icon {
+	display: block;
+	margin: 60px 0 10px
+}
+
+.css-main-u .css-reg-banner .css-regconbox,
+.css-main-u .css-middle-banner .css-regconbox,
+.css-main-u .css-log-banner .css-regconbox {
+	width: 800px;
+	float: none;
+	margin: 75px auto
+}
+
+.css-main-u .css-reg-banner .css-regconbox .css-main .css-input-group,
+.css-main-u .css-middle-banner .css-regconbox .css-main .css-input-group,
+.css-main-u .css-log-banner .css-regconbox .css-main .css-input-group {
+	margin-left: 20px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .css-main .css-tip,
+.css-main-u .css-middle-banner .css-regconbox .css-main .css-tip,
+.css-main-u .css-log-banner .css-regconbox .css-main .css-tip {
+	background-color: #e1f9ff;
+	border: 1px solid #00abd8;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 15px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .css-main .css-upload .img_img,
+.css-main-u .css-middle-banner .css-regconbox .css-main .css-upload .img_img,
+.css-main-u .css-log-banner .css-regconbox .css-main .css-upload .img_img {
+	border: 1px solid #ccc;
+	height: 250px;
+	margin: 15px 10px 0 0;
+	width: 250px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .css-main .css-upload .css-group,
+.css-main-u .css-middle-banner .css-regconbox .css-main .css-upload .css-group,
+.css-main-u .css-log-banner .css-regconbox .css-main .css-upload .css-group {
+	margin-top: 10px;
+	padding: 0;
+	width: 275px;
+	border: 0
+}
+
+.css-main-u .css-reg-banner .css-regconbox .css-main .css-upload .css-group .btn,
+.css-main-u .css-middle-banner .css-regconbox .css-main .css-upload .css-group .btn,
+.css-main-u .css-log-banner .css-regconbox .css-main .css-upload .css-group .btn {
+	background-color: #00abd8;
+	height: auto;
+	left: 0
+}
+
+.css-main-u .css-reg-banner .css-regconbox .css-main .css-error,
+.css-main-u .css-middle-banner .css-regconbox .css-main .css-error,
+.css-main-u .css-log-banner .css-regconbox .css-main .css-error {
+	text-align: center
+}
+
+.css-main-u .css-reg-banner .css-regconbox .css-main .css-btn,
+.css-main-u .css-middle-banner .css-regconbox .css-main .css-btn,
+.css-main-u .css-log-banner .css-regconbox .css-main .css-btn {
+	margin: 40px 260px 0
+}
+
+.css-main-u .css-reg-banner .css-regconbox .css-main .css-btn button,
+.css-main-u .css-middle-banner .css-regconbox .css-main .css-btn button,
+.css-main-u .css-log-banner .css-regconbox .css-main .css-btn button {
+	width: 100%
+}
+
+.css-main-u .css-reg-banner .css-regconbox .css-main .css-btn .css-btn-block,
+.css-main-u .css-middle-banner .css-regconbox .css-main .css-btn .css-btn-block,
+.css-main-u .css-log-banner .css-regconbox .css-main .css-btn .css-btn-block {
+	width: 100%
+}
+
+.css-main-u .css-reg-banner .css-regconbox .css-main .css-end ul li,
+.css-main-u .css-middle-banner .css-regconbox .css-main .css-end ul li,
+.css-main-u .css-log-banner .css-regconbox .css-main .css-end ul li {
+	margin-left: 1%;
+	width: 24%
+}
+
+.css-main-u .css-reg-banner .css-regconbox .css-main .css-end ul li .btn,
+.css-main-u .css-middle-banner .css-regconbox .css-main .css-end ul li .btn,
+.css-main-u .css-log-banner .css-regconbox .css-main .css-end ul li .btn {
+	display: block;
+	text-align: center
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .caption,
+.css-main-u .css-middle-banner .css-regconbox .register .caption,
+.css-main-u .css-log-banner .css-regconbox .register .caption {
+	height: 44px;
+	line-height: 44px;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #00abd8;
+	margin-top: 15px;
+	padding: 0 15px;
+	font-size: 16px;
+	color: #00abd8;
+	background: #fafafa
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .caption img,
+.css-main-u .css-middle-banner .css-regconbox .register .caption img,
+.css-main-u .css-log-banner .css-regconbox .register .caption img {
+	margin-right: 10px;
+	position: relative;
+	top: 3px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .caption .more,
+.css-main-u .css-middle-banner .css-regconbox .register .caption .more,
+.css-main-u .css-log-banner .css-regconbox .register .caption .more {
+	float: right;
+	font-size: 14px;
+	color: #555
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content,
+.css-main-u .css-middle-banner .css-regconbox .register .content,
+.css-main-u .css-log-banner .css-regconbox .register .content {
+	padding-bottom: 45px;
+	*zoom: 1
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content .procedure,
+.css-main-u .css-middle-banner .css-regconbox .register .content .procedure,
+.css-main-u .css-log-banner .css-regconbox .register .content .procedure {
+	padding: 50px 0 30px;
+	border-bottom: 1px solid #ddd
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content .procedure ul,
+.css-main-u .css-middle-banner .css-regconbox .register .content .procedure ul,
+.css-main-u .css-log-banner .css-regconbox .register .content .procedure ul {
+	width: 850px;
+	margin: 0 auto;
+	*zoom: 1
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content .procedure ul:after,
+.css-main-u .css-middle-banner .css-regconbox .register .content .procedure ul:after,
+.css-main-u .css-log-banner .css-regconbox .register .content .procedure ul:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content .procedure ul li,
+.css-main-u .css-middle-banner .css-regconbox .register .content .procedure ul li,
+.css-main-u .css-log-banner .css-regconbox .register .content .procedure ul li {
+	width: 282px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	position: relative
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content .procedure ul li span,
+.css-main-u .css-middle-banner .css-regconbox .register .content .procedure ul li span,
+.css-main-u .css-log-banner .css-regconbox .register .content .procedure ul li span {
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	margin: 0 auto;
+	display: block
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content .procedure ul li p,
+.css-main-u .css-middle-banner .css-regconbox .register .content .procedure ul li p,
+.css-main-u .css-log-banner .css-regconbox .register .content .procedure ul li p {
+	height: 24px;
+	line-height: 24px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content .procedure ul li .line,
+.css-main-u .css-middle-banner .css-regconbox .register .content .procedure ul li .line,
+.css-main-u .css-log-banner .css-regconbox .register .content .procedure ul li .line {
+	height: 3px;
+	width: 130px;
+	background-color: #bdbdbd
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content .procedure ul li .lightline,
+.css-main-u .css-middle-banner .css-regconbox .register .content .procedure ul li .lightline,
+.css-main-u .css-log-banner .css-regconbox .register .content .procedure ul li .lightline {
+	height: 3px;
+	width: 130px;
+	background-color: #34a1df
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content .procedure ul li .left,
+.css-main-u .css-middle-banner .css-regconbox .register .content .procedure ul li .left,
+.css-main-u .css-log-banner .css-regconbox .register .content .procedure ul li .left {
+	position: absolute;
+	left: 0;
+	top: 12px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content .procedure ul li .right,
+.css-main-u .css-middle-banner .css-regconbox .register .content .procedure ul li .right,
+.css-main-u .css-log-banner .css-regconbox .register .content .procedure ul li .right {
+	position: absolute;
+	right: 0;
+	top: 12px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content .choosebox,
+.css-main-u .css-middle-banner .css-regconbox .register .content .choosebox,
+.css-main-u .css-log-banner .css-regconbox .register .content .choosebox {
+	margin: 0 auto;
+	padding-top: 45px;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+	text-align: center
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content .choosebox>.link,
+.css-main-u .css-middle-banner .css-regconbox .register .content .choosebox>.link,
+.css-main-u .css-log-banner .css-regconbox .register .content .choosebox>.link {
+	overflow: hidden;
+	width: 265px;
+	height: 300px;
+	text-align: center;
+	margin: 0 10px;
+	font-size: 18px;
+	display: inline-block;
+	background-color: #eee;
+	color: #000
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content .choosebox>.link .fa,
+.css-main-u .css-middle-banner .css-regconbox .register .content .choosebox>.link .fa,
+.css-main-u .css-log-banner .css-regconbox .register .content .choosebox>.link .fa {
+	display: block;
+	margin: 60px 0 5px;
+	font-size: 70px;
+	color: #333
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .content .choosebox>.link p,
+.css-main-u .css-middle-banner .css-regconbox .register .content .choosebox>.link p,
+.css-main-u .css-log-banner .css-regconbox .register .content .choosebox>.link p {
+	font-size: 12px;
+	color: #555;
+	margin-top: 15px;
+	padding: 0 10px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form,
+.css-main-u .css-middle-banner .css-regconbox .register .form,
+.css-main-u .css-log-banner .css-regconbox .register .form {
+	margin: 15px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group {
+	margin-bottom: 15px;
+	width: 100%;
+	zoom: 1;
+	*zoom: 1
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group:after,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group:after,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group label,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group label,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group label {
+	float: left;
+	vertical-align: top;
+	width: 330px;
+	font-size: 14px;
+	height: 34px;
+	line-height: 34px;
+	text-align: right;
+	margin-right: 15px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group label span,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group label span,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group label span {
+	padding-left: 5px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group input,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group input,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group input,
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group i,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group i,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group i {
+	width: 320px;
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	padding: 0 15px;
+	border: 1px solid #ddd;
+	box-shadow: none;
+	outline: 0;
+	color: #555;
+	background-color: #fafafa;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group input:focus,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group input:focus,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group input:focus,
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group i:focus,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group i:focus,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group i:focus {
+	border-color: #00abd8
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group>span,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group>span,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group>span {
+	*zoom: 1
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group>span:after,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group>span:after,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group>span:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group>span>input,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group>span>input,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group>span>input {
+	width: 24px;
+	float: none
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .select,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .select,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .select {
+	width: 352px;
+	float: left
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .select select,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .select select,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .select select {
+	border: 1px solid #ddd;
+	line-height: 22px;
+	*height: 22px;
+	*margin: -2px;
+	color: #555;
+	padding: 8px 14px;
+	font-size: 13px;
+	width: 352px;
+	*width: 344px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .select .chosen-container,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .select .chosen-container,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .select .chosen-container {
+	width: 352px !important;
+	*width: 344px !important
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .select.two select,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .select.two select,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .select.two select,
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .select.two .chosen-container,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .select.two .chosen-container,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .select.two .chosen-container {
+	width: 173px !important;
+	*width: 165px !important
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .select.three select,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .select.three select,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .select.three select,
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .select.three .chosen-container,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .select.three .chosen-container,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .select.three .chosen-container {
+	width: 114px !important;
+	*width: 106px !important
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .select .chosen-container-single .chosen-search input[type=text],
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .select .chosen-container-single .chosen-search input[type=text],
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .select .chosen-container-single .chosen-search input[type=text] {
+	width: 100%;
+	padding: 4px 20px 4px 5px;
+	height: auto;
+	line-height: normal;
+	float: none
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .select .chosen-container-single .chosen-single,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .select .chosen-container-single .chosen-single,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .select .chosen-container-single .chosen-single {
+	border-color: #ddd;
+	border-radius: 0;
+	box-shadow: none;
+	height: 38px;
+	line-height: 37px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .select .chosen-container-single .chosen-single:focus,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .select .chosen-container-single .chosen-single:focus,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .select .chosen-container-single .chosen-single:focus {
+	border-color: #00abd8
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .select .chosen-container-single .chosen-single div b,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .select .chosen-container-single .chosen-single div b,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .select .chosen-container-single .chosen-single div b {
+	background-position: 0 9px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .select .chosen-container .chosen-drop,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .select .chosen-container .chosen-drop,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .select .chosen-container .chosen-drop {
+	border-left-color: #00abd8;
+	border-bottom-color: #00abd8;
+	border-right-color: #00abd8;
+	border-radius: 0
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .select .chosen-container-active .chosen-single,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .select .chosen-container-active .chosen-single,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .select .chosen-container-active .chosen-single {
+	border-color: #00abd8
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .error,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .error,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .error {
+	border-color: red;
+	color: red
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .error .chosen-container-single .chosen-single,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .error .chosen-container-single .chosen-single,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .error .chosen-container-single .chosen-single {
+	border-color: red;
+	color: red
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .upload,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .upload,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .upload {
+	width: 352px;
+	height: 352px;
+	float: left;
+	position: relative
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .upload input[type=file],
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .upload input[type=file],
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .upload input[type=file] {
+	border: 0;
+	position: absolute;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	float: none;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	cursor: pointer
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .upload .addimg,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .upload .addimg,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .upload .addimg {
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #ddd;
+	z-index: 1;
+	cursor: pointer
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .upload .delete,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .upload .delete,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .upload .delete {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 2;
+	cursor: pointer
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .upload .delete i.fa-remove,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .upload .delete i.fa-remove,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .upload .delete i.fa-remove {
+	background: 0 0;
+	border: 0;
+	box-shadow: none;
+	float: none;
+	height: auto;
+	line-height: normal;
+	width: auto;
+	padding: 0
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .moxie-shim.moxie-shim-html5,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .moxie-shim.moxie-shim-html5,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .moxie-shim.moxie-shim-html5 {
+	z-index: 1 !important
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .moxie-shim.moxie-shim-flash,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .moxie-shim.moxie-shim-flash,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .moxie-shim.moxie-shim-flash {
+	z-index: 1 !important
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .textarea,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .textarea,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .textarea {
+	width: 333px;
+	height: 100px;
+	padding: 8px;
+	border: 1px solid #ddd;
+	resize: none;
+	font-size: 14px;
+	float: left;
+	overflow-y: auto
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .textarea:focus,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .textarea:focus,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .textarea:focus {
+	border-color: #00abd8
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .number,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .number,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .number {
+	width: 200px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .msg-btn,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .msg-btn,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .msg-btn {
+	width: 105px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	overflow: hidden;
+	padding: 0;
+	margin-left: 15px;
+	font-size: 12px;
+	float: left
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .yzm-img,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .yzm-img,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .yzm-img {
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	margin-left: 15px;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+	border: 1px solid #ddd;
+	width: 103px;
+	cursor: pointer
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .tip,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .tip,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .tip {
+	width: 450px;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	margin-left: 15px;
+	color: #888;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .tip.Validform_checktip,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .tip.Validform_checktip,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .tip.Validform_checktip {
+	width: auto
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .tip.Validform_wrong,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .tip.Validform_wrong,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .tip.Validform_wrong {
+	color: red
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .tip.Validform_right,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .tip.Validform_right,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .tip.Validform_right {
+	color: #71b83d
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .check,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .check,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .check {
+	text-align: center;
+	margin: 0;
+	height: auto;
+	width: auto;
+	margin-left: 345px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-group .check input,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-group .check input,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-group .check input {
+	width: auto;
+	float: none;
+	height: 19px;
+	line-height: 19px;
+	position: relative;
+	top: 4px;
+	border: 0;
+	background: 0 0;
+	padding: 0
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .form-text,
+.css-main-u .css-middle-banner .css-regconbox .register .form .form-text,
+.css-main-u .css-log-banner .css-regconbox .register .form .form-text {
+	width: 700px;
+	margin: 0 auto 15px;
+	background-color: #00abd8;
+	border: 1px solid #00abd8;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 15px;
+	text-align: center
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .submit,
+.css-main-u .css-middle-banner .css-regconbox .register .form .submit,
+.css-main-u .css-log-banner .css-regconbox .register .form .submit {
+	width: 352px;
+	margin: 15px 0 30px 345px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .form .submit .btn,
+.css-main-u .css-middle-banner .css-regconbox .register .form .submit .btn,
+.css-main-u .css-log-banner .css-regconbox .register .form .submit .btn {
+	padding-top: 6px;
+	padding-bottom: 6px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .tbox,
+.css-main-u .css-middle-banner .css-regconbox .register .tbox,
+.css-main-u .css-log-banner .css-regconbox .register .tbox {
+	width: 800px;
+	padding: 35px 0;
+	margin: 0 auto;
+	text-align: center
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .tbox div,
+.css-main-u .css-middle-banner .css-regconbox .register .tbox div,
+.css-main-u .css-log-banner .css-regconbox .register .tbox div {
+	font-size: 16px;
+	margin: 10px 0 40px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .tbox div .pl,
+.css-main-u .css-middle-banner .css-regconbox .register .tbox div .pl,
+.css-main-u .css-log-banner .css-regconbox .register .tbox div .pl {
+	width: 317px;
+	margin: 0 auto
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .tbox div .pl li,
+.css-main-u .css-middle-banner .css-regconbox .register .tbox div .pl li,
+.css-main-u .css-log-banner .css-regconbox .register .tbox div .pl li {
+	float: right;
+	width: 150px;
+	text-align: center;
+	margin-right: -75px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .tbox div .pl li:first-child,
+.css-main-u .css-middle-banner .css-regconbox .register .tbox div .pl li:first-child,
+.css-main-u .css-log-banner .css-regconbox .register .tbox div .pl li:first-child {
+	float: left;
+	margin-left: -75px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .tbox p,
+.css-main-u .css-middle-banner .css-regconbox .register .tbox p,
+.css-main-u .css-log-banner .css-regconbox .register .tbox p {
+	margin-top: 5px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .tbox .info .form .form-group label,
+.css-main-u .css-middle-banner .css-regconbox .register .tbox .info .form .form-group label,
+.css-main-u .css-log-banner .css-regconbox .register .tbox .info .form .form-group label {
+	width: 230px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .tbox .info .form .form-group .tip,
+.css-main-u .css-middle-banner .css-regconbox .register .tbox .info .form .form-group .tip,
+.css-main-u .css-log-banner .css-regconbox .register .tbox .info .form .form-group .tip {
+	margin-left: 245px;
+	font-size: 14px;
+	text-align: left
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .tbox .info .form .form-group .check,
+.css-main-u .css-middle-banner .css-regconbox .register .tbox .info .form .form-group .check,
+.css-main-u .css-log-banner .css-regconbox .register .tbox .info .form .form-group .check {
+	width: 100%;
+	text-align: left;
+	margin-left: 245px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .tbox .info .form .form-group .submit,
+.css-main-u .css-middle-banner .css-regconbox .register .tbox .info .form .form-group .submit,
+.css-main-u .css-log-banner .css-regconbox .register .tbox .info .form .form-group .submit {
+	text-align: left;
+	margin-left: 245px
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .tbox .info .form .form-group .input_major,
+.css-main-u .css-middle-banner .css-regconbox .register .tbox .info .form .form-group .input_major,
+.css-main-u .css-log-banner .css-regconbox .register .tbox .info .form .form-group .input_major {
+	border-color: #eee !important
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .tbox .info .form .form-group .input_major #btn_IndustryID,
+.css-main-u .css-middle-banner .css-regconbox .register .tbox .info .form .form-group .input_major #btn_IndustryID,
+.css-main-u .css-log-banner .css-regconbox .register .tbox .info .form .form-group .input_major #btn_IndustryID {
+	background-color: #f9f9f9 !important
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .tbox .info .form .form-group textarea,
+.css-main-u .css-middle-banner .css-regconbox .register .tbox .info .form .form-group textarea,
+.css-main-u .css-log-banner .css-regconbox .register .tbox .info .form .form-group textarea {
+	border: 1px solid #ddd;
+	box-shadow: none;
+	padding: 6px;
+	resize: none;
+	background-color: #fff
+}
+
+.css-main-u .css-reg-banner .css-regconbox .register .tbox .info .form .form-group textarea:focus,
+.css-main-u .css-middle-banner .css-regconbox .register .tbox .info .form .form-group textarea:focus,
+.css-main-u .css-log-banner .css-regconbox .register .tbox .info .form .form-group textarea:focus {
+	border: 1px solid #f26222
+}
+
+.css-main-u .css-auth-page .caption {
+	height: 44px;
+	line-height: 44px;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #00abd8;
+	margin-top: 15px;
+	padding: 0 15px;
+	font-size: 16px;
+	color: #00abd8;
+	background: #fafafa
+}
+
+.css-main-u .css-auth-page .caption img {
+	margin-right: 10px;
+	position: relative;
+	top: 3px
+}
+
+.css-main-u .css-auth-page .caption .more {
+	float: right;
+	font-size: 14px;
+	color: #555
+}
+
+.css-main-u .css-auth-page .content {
+	padding-bottom: 45px;
+	*zoom: 1
+}
+
+.css-main-u .css-auth-page .content .procedure {
+	padding: 50px 0 30px;
+	border-bottom: 1px solid #ddd
+}
+
+.css-main-u .css-auth-page .content .procedure ul {
+	width: 850px;
+	margin: 0 auto;
+	*zoom: 1
+}
+
+.css-main-u .css-auth-page .content .procedure ul:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-main-u .css-auth-page .content .procedure ul li {
+	width: 282px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	position: relative
+}
+
+.css-main-u .css-auth-page .content .procedure ul li span {
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	margin: 0 auto;
+	display: block
+}
+
+.css-main-u .css-auth-page .content .procedure ul li p {
+	height: 24px;
+	line-height: 24px
+}
+
+.css-main-u .css-auth-page .content .procedure ul li .line {
+	height: 3px;
+	width: 130px;
+	background-color: #bdbdbd
+}
+
+.css-main-u .css-auth-page .content .procedure ul li .lightline {
+	height: 3px;
+	width: 130px;
+	background-color: #34a1df
+}
+
+.css-main-u .css-auth-page .content .procedure ul li .left {
+	position: absolute;
+	left: 0;
+	top: 12px
+}
+
+.css-main-u .css-auth-page .content .procedure ul li .right {
+	position: absolute;
+	right: 0;
+	top: 12px
+}
+
+.css-main-u .css-auth-page .content .choosebox {
+	margin: 0 auto;
+	padding-top: 45px;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+	text-align: center
+}
+
+.css-main-u .css-auth-page .content .choosebox>.link {
+	overflow: hidden;
+	width: 265px;
+	height: 300px;
+	text-align: center;
+	margin: 0 10px;
+	font-size: 18px;
+	display: inline-block;
+	background-color: #eee;
+	color: #000
+}
+
+.css-main-u .css-auth-page .content .choosebox>.link .fa {
+	display: block;
+	margin: 60px 0 5px;
+	font-size: 70px;
+	color: #333
+}
+
+.css-main-u .css-auth-page .content .choosebox>.link p {
+	font-size: 12px;
+	color: #555;
+	margin-top: 15px;
+	padding: 0 10px
+}
+
+.css-main-u .css-auth-page .form {
+	margin: 15px
+}
+
+.css-main-u .css-auth-page .form .form-group {
+	margin-bottom: 15px;
+	width: 100%;
+	zoom: 1;
+	*zoom: 1
+}
+
+.css-main-u .css-auth-page .form .form-group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.css-main-u .css-auth-page .form .form-group label {
+	float: left;
+	vertical-align: top;
+	width: 330px;
+	font-size: 14px;
+	height: 34px;
+	line-height: 34px;
+	text-align: right;
+	margin-right: 15px
+}
+
+.css-main-u .css-auth-page .form .form-group label span {
+	padding-left: 5px
+}
+
+.css-main-u .css-auth-page .form .form-group input,
+.css-main-u .css-auth-page .form .form-group i {
+	width: 320px;
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	padding: 0 15px;
+	border: 1px solid #ddd;
+	box-shadow: none;
+	outline: 0;
+	color: #555;
+	background-color: #fafafa;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-main-u .css-auth-page .form .form-group input:focus,
+.css-main-u .css-auth-page .form .form-group i:focus {
+	border-color: #00abd8
+}
+
+
+.css-main-u .css-auth-page .form .form-group .select {
+	width: 352px;
+	float: left
+}
+
+.css-main-u .css-auth-page .form .form-group .select select {
+	border: 1px solid #ddd;
+	line-height: 22px;
+	*height: 22px;
+	*margin: -2px;
+	color: #555;
+	padding: 8px 14px;
+	font-size: 13px;
+	width: 352px;
+	*width: 344px
+}
+
+.css-main-u .css-auth-page .form .form-group .select .chosen-container {
+	width: 352px !important;
+	*width: 344px !important
+}
+
+.css-main-u .css-auth-page .form .form-group .select.two select,
+.css-main-u .css-auth-page .form .form-group .select.two .chosen-container {
+	width: 173px !important;
+	*width: 165px !important
+}
+
+.css-main-u .css-auth-page .form .form-group .select.three select,
+.css-main-u .css-auth-page .form .form-group .select.three .chosen-container {
+	width: 114px !important;
+	*width: 106px !important
+}
+
+.css-main-u .css-auth-page .form .form-group .select .chosen-container-single .chosen-search input[type=text] {
+	width: 100%;
+	padding: 4px 20px 4px 5px;
+	height: auto;
+	line-height: normal;
+	float: none
+}
+
+.css-main-u .css-auth-page .form .form-group .select .chosen-container-single .chosen-single {
+	border-color: #ddd;
+	border-radius: 0;
+	box-shadow: none;
+	height: 38px;
+	line-height: 37px
+}
+
+.css-main-u .css-auth-page .form .form-group .select .chosen-container-single .chosen-single:focus {
+	border-color: #00abd8
+}
+
+.css-main-u .css-auth-page .form .form-group .select .chosen-container-single .chosen-single div b {
+	background-position: 0 9px
+}
+
+.css-main-u .css-auth-page .form .form-group .select .chosen-container .chosen-drop {
+	border-left-color: #00abd8;
+	border-bottom-color: #00abd8;
+	border-right-color: #00abd8;
+	border-radius: 0
+}
+
+.css-main-u .css-auth-page .form .form-group .select .chosen-container-active .chosen-single {
+	border-color: #00abd8
+}
+
+.css-main-u .css-auth-page .form .form-group .error {
+	border-color: red;
+	color: red
+}
+
+.css-main-u .css-auth-page .form .form-group .error .chosen-container-single .chosen-single {
+	border-color: red;
+	color: red
+}
+
+.css-main-u .css-auth-page .form .form-group .upload {
+	width: 352px;
+	height: 352px;
+	float: left;
+	position: relative
+}
+
+.css-main-u .css-auth-page .form .form-group .upload input[type=file] {
+	border: 0;
+	position: absolute;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	float: none;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	cursor: pointer
+}
+
+.css-main-u .css-auth-page .form .form-group .upload .addimg {
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #ddd;
+	z-index: 1;
+	cursor: pointer
+}
+
+.css-main-u .css-auth-page .form .form-group .upload .delete {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 2;
+	cursor: pointer
+}
+
+.css-main-u .css-auth-page .form .form-group .upload .delete i.fa-remove {
+	background: 0 0;
+	border: 0;
+	box-shadow: none;
+	float: none;
+	height: auto;
+	line-height: normal;
+	width: auto;
+	padding: 0
+}
+
+.css-main-u .css-auth-page .form .form-group .moxie-shim.moxie-shim-html5 {
+	z-index: 1 !important
+}
+
+.css-main-u .css-auth-page .form .form-group .moxie-shim.moxie-shim-flash {
+	z-index: 1 !important
+}
+
+.css-main-u .css-auth-page .form .form-group .textarea {
+	width: 333px;
+	height: 100px;
+	padding: 8px;
+	border: 1px solid #ddd;
+	resize: none;
+	font-size: 14px;
+	float: left;
+	overflow-y: auto
+}
+
+.css-main-u .css-auth-page .form .form-group .textarea:focus {
+	border-color: #00abd8
+}
+
+.css-main-u .css-auth-page .form .form-group .number {
+	width: 200px
+}
+
+.css-main-u .css-auth-page .form .form-group .msg-btn {
+	width: 105px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	overflow: hidden;
+	padding: 0;
+	margin-left: 15px;
+	font-size: 12px;
+	float: left
+}
+
+.css-main-u .css-auth-page .form .form-group  {
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	margin-left: 15px;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+	border: 1px solid #ddd;
+	width: 103px;
+	cursor: pointer
+}
+
+.css-main-u .css-auth-page .form .form-group .tip {
+	width: 450px;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	margin-left: 15px;
+	color: #888;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.css-main-u .css-auth-page .form .form-group .tip.Validform_checktip {
+	width: auto
+}
+
+.css-main-u .css-auth-page .form .form-group .tip.Validform_wrong {
+	color: red
+}
+
+.css-main-u .css-auth-page .form .form-group .tip.Validform_right {
+	color: #71b83d
+}
+
+.css-main-u .css-auth-page .form .form-group .check {
+	text-align: center;
+	margin: 0;
+	height: auto;
+
+	width: auto;
+	margin-left: 345px
+}
+
+.css-main-u .css-auth-page .form .form-group .check input {
+	width: auto;
+	float: none;
+	height: 19px;
+	line-height: 19px;
+	position: relative;
+	top: 4px;
+	border: 0;
+	background: 0 0;
+	padding: 0
+}
+
+.css-main-u .css-auth-page .form .form-text {
+	width: 700px;
+	margin: 0 auto 15px;
+	background-color: #00abd8;
+	border: 1px solid #00abd8;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 15px;
+	text-align: center
+}
+
+.css-main-u .css-auth-page .form .submit {
+	width: 352px;
+	margin: 15px 0 30px 345px
+}
+
+.css-main-u .css-auth-page .form .submit .btn {
+	padding-top: 6px;
+	padding-bottom: 6px
+}
+
+.css-main-u .css-auth-page .tbox {
+	width: 800px;
+	padding: 35px 0;
+	margin: 0 auto;
+	text-align: center
+}
+
+.css-main-u .css-auth-page .tbox div {
+	font-size: 16px;
+	margin: 10px 0 40px
+}
+
+.css-main-u .css-auth-page .tbox div .pl {
+	width: 317px;
+	margin: 0 auto
+}
+
+.css-main-u .css-auth-page .tbox div .pl li {
+	float: right;
+	width: 150px;
+	text-align: center;
+	margin-right: -75px
+}
+
+.css-main-u .css-auth-page .tbox div .pl li:first-child {
+	float: left;
+	margin-left: -75px
+}
+
+.css-main-u .css-auth-page .tbox p {
+	margin-top: 5px
+}
+
+.css-main-u .css-auth-page .tbox .info .form .form-group label {
+	width: 230px
+}
+
+.css-main-u .css-auth-page .tbox .info .form .form-group .tip {
+	margin-left: 245px;
+	font-size: 14px;
+	text-align: left
+}
+
+.css-main-u .css-auth-page .tbox .info .form .form-group .check {
+	width: 100%;
+	text-align: left;
+	margin-left: 245px
+}
+
+.css-main-u .css-auth-page .tbox .info .form .form-group .submit {
+	text-align: left;
+	margin-left: 245px
+}
+
+.css-main-u .css-auth-page .tbox .info .form .form-group .input_major {
+	border-color: #eee !important
+}
+
+.css-main-u .css-auth-page .tbox .info .form .form-group .input_major #btn_IndustryID {
+	background-color: #f9f9f9 !important
+}
+
+.css-main-u .css-auth-page .tbox .info .form .form-group textarea {
+	border: 1px solid #ddd;
+	box-shadow: none;
+	padding: 6px;
+	resize: none;
+	background-color: #fff
+}
+
+.css-main-u .css-auth-page .tbox .info .form .form-group textarea:focus {
+	border: 1px solid #f26222
+}
+
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-tit {
+	width: 90px;
+	text-align: right;
+	left: 30px
+}
+
+.css-main-u .css-log-banner .css-conbox .css-main .css-input-group .css-group {
+	margin-left: 140px
+}
+
+.css-main-u .css-log-banner .css-conbox .css-main  .css-yzm img {
+	margin-left: 252px
+}
+
+.css-main-u .css-log-banner .css-tips {
+	padding-left: 0;
+	text-align: center;
+	float: none
+}
+
+
+.css-main-u .css-reg-footer .css-logo {
+	width: 180px;
+	height: 60px;
+	line-height: 60px;
+	margin-top: 25px;
+	float: left;
+	border-right: 1px solid #ddd
+}
+
+.css-main-u .css-reg-footer .css-tel {
+	width: 350px;
+	height: 60px;
+	margin-top: 25px;
+	padding-left: 40px;
+	float: left
+}
+
+.css-main-u .css-reg-footer .css-tel p {
+	margin-top: 6px
+}
+
+.css-main-u .css-reg-footer .css-btn {
+	margin-top: 30px
+}
+
+.css-main-u .css-reg-footer .css-btn .btn {
+	padding-left: 30px;
+	padding-right: 30px
+}
+
+.css-main-u .css-reg-footer .css-btn p {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 12px
+}
+
+.choosebox {
+	margin: 0 auto;
+	padding-top: 45px;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+	text-align: center
+}
+
+.choosebox>.link {
+	overflow: hidden;
+	width: 242px;
+	height: 280px;
+	text-align: center;
+	margin: 0 10px;
+	font-size: 18px;
+	display: inline-block;
+	background-color: #eee;
+	color: #000
+}
+
+.choosebox>.link .icon {
+	display: block;
+	margin: 60px 0 5px;
+	font-size: 70px
+}
+
+.choosebox>.link p {
+	font-size: 12px;
+	margin-top: 15px;
+	padding: 0 10px
+}
+
+.choosebox>.link:hover {
+	color: #00abd8
+}
+
+.css-pagination {
+	width: 100%;
+	padding: 20px 0;
+	height: 30px;
+	line-height: 30px;
+	border-top: 1px solid #f6f6f6;
+	text-align: center;
+	clear: both
+}
+
+.css-pagination .css-count {
+	display: inline;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: top
+}
+
+.css-pagination .css-page {
+	display: inline;
+	height: 24px;
+	margin-left: 15px;
+	margin-top: 2px;
+	padding-top: 5px
+}
+
+.css-pagination .css-page li {
+	display: inline
+}
+
+.css-pagination .css-page li a {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	color: #333;
+	padding: 3px 6px
+}
+
+.css-pagination .css-page .active a {
+	background-color: #00abd8;
+	color: #fff
+}
+
+.css-footer {
+	min-width: 1200px;
+	width: 100%;
+	height: 150px;
+	padding: 30px 0;
+	margin: -210px auto 0;
+	background: #333;
+	text-align: center
+}
+
+.css-footer ul {
+	line-height: 24px
+}
+
+.css-footer .css-corplink {
+	margin-bottom: 15px
+}
+
+.css-footer .css-corplink li {
+	margin: 0 5px;
+	color: #ccc
+}
+
+.css-footer .css-corplink li a {
+	color: #ccc
+}
+
+.css-footer .css-corplink li a:hover {
+	color: #666
+}
+
+.chosen {
+	border: 0;
+	box-shadow: none;
+	background: 0 0;
+	position: relative;
+	overflow: hidden;
+	display: inline;
+	width: 100%;
+	margin-top: 5px
+}
+
+.chosen-container-single .chosen-single {
+	border: 0;
+	box-shadow: none;
+	height: 30px
+}
+
+.chosen-container-single .chosen-single span {
+	height: 30px;
+	line-height: 30px
+}
+
+.chosen-container-single .chosen-single div b {
+
+}
+
+.chosen-container-single .chosen-single .chosen-search {
+	height: 20px;
+	padding: 3px 4px
+}
+
+.chosen-container-single .chosen-drop .chosen-search input[type=text] {
+	height: 20px !important;
+	line-height: 20px;
+	border: 1px solid #ddd !important;
+	left: 0 !important
+}
+
+.chosen-container {
+	width: 230px !important;
+	height: 30px;
+	margin: 0 -5px
+}
+
+.chosen-container .chosen-results {
+	padding-top: 25px
+}
+
+.css-vender-login {
+	margin: 15px -19px 0 -19px;
+	padding-top: 15px;
+	text-align: center;
+	border-top: 1px solid #ddd
+}
+
+.css-vender-login p {
+	margin-bottom: 10px
+}
+
+.css-vender-login li {
+	margin: 0 10px
+}
+
+.upload-avatar-mod .bd {
+	padding: 30px 40px 66px 20px
+}
+
+.crop-avatar-mod .hd {
+	display: none
+}
+
+.crop-avatar-mod .bd {
+	padding: 4px 40px 36px 46px
+}
+
+.upload-avatar-mod .default-avatar-box,
+.sns-avatar-show .sns-avatar-box {
+	height: 161px;
+	margin-right: 30px;
+	float: left;
+	overflow: hidden
+}
+
+.upload-avatar-mod .action-box {
+	overflow: hidden
+}
+
+.upload-avatar-mod .avatar-tips {
+	font-size: 14px;
+	line-height: 1.4;
+	margin-bottom: 58px
+}
+
+.upload-avatar-mod .up-btn-box {
+	width: 143px;
+	height: 39px;
+	*margin-right: 5px;
+	vertical-align: middle;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	position: relative;
+	overflow: hidden
+}
+
+.upload-pic-input {
+	width: 40px;
+	height: 39px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	z-index: 999;
+	outline: 0
+}
+
+.upload-pic-input:hover {
+	outline: 0
+}
+
+.upload-pic-box .g9 {
+	padding: 5px 10px
+}
+
+.sns-avatar-show {
+	padding: 0 20px 0 90px
+}
+
+.sns-avatar-show .confirm-pic-btn {
+	margin-bottom: 5px
+}
+
+.sns-avatar-show .sns-avatar-box {
+	width: 160px
+}
+
+.crop-tips {
+	font-size: 14px;
+	padding-bottom: 15px
+}
+
+.dj-crop-mod {
+	width: 250px;
+	margin-right: 60px;
+	float: left
+}
+
+.dj-preview-mod {
+	margin-left: 310px;
+	padding-left: 15px;
+	border-left: 1px solid #e5e5e5
+}
+
+.dj-crop-mod .photo-box {
+	width: 250px;
+	background: #333;
+	overflow: hidden
+}
+
+.avatar-preview-m,
+.avatar-preview-s {
+	margin-bottom: 12px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	position: relative
+}
+
+.avatar-preview-m {
+	width: 80px;
+	height: 80px
+}
+
+.avatar-preview-s {
+	width: 30px;
+	height: 30px;
+	margin-top: 30px
+}
+
+.save-avatar-box {
+	margin-top: 85px
+}
+
+.upload-pic-btn {
+	width: 143px;
+	background-position: -406px 0
+}
+
+.save-avatar-btn {
+	width: 91px;
+	background-position: -198px 0
+}
+
+.confirm-pic-btn {
+	width: 144px;
+	background-position: -555px 0
+}
+
+.modify-avatar-box .default-avatar-box {
+	width: 160px;
+	padding-left: 50px
+}
+
+.modify-avatar-box .up-btn-box {
+	width: 100px;
+	height: 30px;
+	_height: 31px
+}
+
+.modify-avatar-box .upload-pic-input {
+	height: 30px;
+	_height: 31px
+}
+
+.modify-avatar-btn,
+.modify-avatar-btn b {
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	height: 30px;
+
+	display: inline-block;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+
+.modify-avatar-btn {
+	padding-left: 20px
+}
+
+.modify-avatar-btn b {
+	height: 20px;
+	line-height: 20px;
+	white-space: nowrap;
+	padding: 5px 20px 5px 0;
+	background-position: 100% -143px
+}
+
+.font14 {
+	font-size: 14px
+}
+
+.dj-newug-mod .table-box {
+	padding-bottom: 10px
+}
+
+.dj-newug-mod .practice-box {
+	padding-top: 10px
+}
+
+.practice-box .disabled {
+	background: #f3f3f3;
+	border-width: 1px
+}
+
+.dj-newug-mod .bd {
+	padding: 0
+}
+
+.modify-avatar-box {
+	width: 100%;
+	overflow: hidden
+}
+
+.action-box {
+	float: left;
+	width: 360px;
+	padding-left: 100px
+}
+
+.upload-avatar-mod .default-avatar-box {
+	float: right;
+	height: auto;
+	margin-right: 0;
+	padding-right: 55px
+}
+
+.action-box h2 {
+	font: 400 16px/44px 'Microsoft YaHei', SimHei;
+	color: #333;
+	text-indent: 8px
+}
+
+.default-avatar-box h3 {
+	margin-bottom: 6px;
+	color: #999;
+	font-size: 14px;
+	font-weight: bolder
+}
+
+.upload-pic-box {
+	position: relative;
+	width: 358px;
+	height: 378px;
+
+	cursor: pointer;
+	overflow: hidden
+}
+
+#J_ImageForm {
+	position: relative;
+	z-index: 100
+}
+
+.upload-pic-box .g9 {
+	position: absolute;
+	left: 0;
+	top: 244px;
+	text-align: center;
+	z-index: 80
+}
+
+.avator1,
+.avatar-preview-x {
+	width: 150px;
+	height: 150px
+}
+
+.avator2,
+.avatar-preview-m {
+	width: 80px;
+	height: 80px
+}
+
+.avator3,
+.avatar-preview-s {
+	width: 50px;
+	height: 50px
+}
+
+.avator1,
+.avator2,
+.avator3,
+.avatar-preview-x,
+.avatar-preview-m,
+.avatar-preview-s {
+	position: relative;
+	overflow: hidden;
+	border: #ccc 1px solid;
+	margin-bottom: 20px
+}
+
+.default-avatar-box img {
+	position: absolute;
+	vertical-align: top;
+	z-index: 100
+}
+
+.upload-avatar-mod .up-btn-box {
+	display: block;
+	width: 358px;
+	height: 378px;
+	overflow: hidden
+}
+
+.modify-avatar-btn {
+	width: 358px;
+	height: 378px
+}
+
+.upload-pic-input {
+	cursor: pointer
+}
+
+#J_UploadPicBtn b {
+	position: absolute;
+	left: 90px;
+	top: 200px;
+	display: block;
+	background: 0 0;
+	width: 176px;
+	height: 39px;
+	padding: 0;
+	text-indent: -9999px;
+
+	overflow: hidden
+}
+
+.hov {
+
+}
+
+.dj-ug-dialog .uploading {
+	position: absolute;
+	left: 220px;
+	top: 210px;
+	z-index: 120
+}
+
+#J_UploadPicBtn .avator_loading {
+
+}
+
+.dj-preview-mod {
+	border: 0 none;
+	margin-left: 0;
+	padding-left: 0
+}
+
+.dj-crop-mod {
+	float: none;
+	margin-right: 0;
+	width: 354px;
+	height: 374px;
+	margin: 2px 0 0 2px
+}
+
+.dj-crop-mod .photo-box {
+	position: relative;
+	width: 338px;
+	height: 360px;
+	margin: 8px 0 0 7px;
+	*margin-top: 6px;
+	overflow: hidden;
+	background: #fff;
+	border: #d7dee3 1px solid;
+	background: #e5e5e5
+}
+
+.save-avatar-box {
+	margin-top: 20px
+}
+
+#avator-substatus {
+	text-align: center
+}
+
+#avator-substatus a {
+	text-align: left;
+	text-indent: 26px;
+	letter-spacing: 4px;
+	color: #333;
+	font-size: 14px
+}
+
+#avator-substatus a:hover {
+	text-decoration: none
+}
+
+.save-avatar-btn {
+	display: inline-block;
+	width: 85px;
+	height: 30px;
+	line-height: 30px;
+
+	margin-right: 10px
+}
+
+.cancel-avatar-btn {
+	display: inline-block;
+	width: 85px;
+	height: 30px;
+	line-height: 30px;
+
+}
+
+#avator-savestatus {
+	display: none
+}
+
+.avator-saving {
+	display: block;
+	width: 115px;
+	height: 30px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: left;
+	text-indent: 20px;
+	color: #999;
+
+	border: 0 none
+}
+
+.avator-saving img {
+	margin-left: 4px;
+	vertical-align: -3px
+}
+
+.avator-pre-loading {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	background: #f0f0f0
+}
+
+.aplx {
+	width: 150px;
+	height: 150px
+}
+
+.aplm {
+	width: 80px;
+	height: 80px
+}
+
+.apls {
+	width: 50px;
+	height: 50px
+}
+
+.aplx img {
+	position: absolute;
+	top: 50px;
+	left: 50px
+}
+
+.aplm img {
+	position: absolute;
+	top: 28px;
+	left: 28px
+}
+
+.apls img {
+	position: absolute;
+	top: 17px;
+	left: 17px
+}
+
+#avator-substatus-unfn {
+	padding-left: 24px;
+	text-align: center
+}
+
+#avator-substatus-unfn a {
+	color: #999
+}
+
+#avator-substatus-unfn a:hover {
+	text-decoration: none
+}
+
+.cancel-avatar-btn {
+	margin-left: 10px
+}
+
+.modify-avatar-btn,
+.card-set-btn .modify-avatar-btn b {
+	background: 0 0;
+	color: #333;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	height: 30px;
+	text-align: center;
+	width: auto
+}
+
+.card-set-btn .modify-avatar-btn b {
+	background-position: 100% -143px
+}
+
+.action-box {
+	padding: 25px 0 0 40px
+}
+
+.default-avatar-box {
+	padding-top: 25px
+}
+
+.uploadimg-v2 {
+	padding: 0 0 70px
+}
+
+.uploadimg-v2 img {
+	max-width: none !important
+}
+
+.set-title {
+	font-size: 14px;
+	font-weight: bolder
+}
+
+.selector-check {
+	line-height: 28px
+}
+
+#drag_h {
+	background-color: #00abd8
+}
+
+.js-receipt-show {
+	cursor: pointer
+}
+
+.js-receipt-list {
+	display: none
+}
+
+.css-full-height-140 {
+	padding-bottom: 140px
+}
+
+#marquee5 {
+	width: 1200px;
+	height: 400px;
+	overflow: hidden
+}
+
+#marquee5 ul {
+	width: 1200px
+}
+
+#marquee5 ul li {
+	width: 228px;
+	height: 100px;
+	margin: 0 6px;
+	text-align: center;
+	float: left
+}
+
+.fade {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index: 1000;
+	-moz-opacity: .5;
+	opacity: .5;
+	filter: alpha(opacity=50)
+}
+
+.msgbox {
+	width: 400px;
+	background-color: #fff;
+	display: none
+}
+
+.msgbox .caption {
+	height: 36px;
+	line-height: 36px;
+	padding: 0 15px
+}
+
+.msgbox .caption .close {
+	color: #fff;
+	float: right
+}
+
+.msgbox .content {
+	padding: 15px;
+	overflow-y: auto;
+	overflow-x: hidden
+}
+
+.msgbox .content .img {
+	width: 200px;
+	height: 100px;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer
+}
+
+.msgbox .content input {
+	width: 300px;
+	height: 30px;
+	margin: 15px auto;
+	display: block;
+	line-height: 30px;
+	padding: 0 15px;
+	border: 1px solid #ddd
+}
+
+.msgbox .content input:focus {
+	border-color: #00abd8
+}
+
+.msgbox .content .btn {
+	width: 310px;
+	margin: 15px auto
+}
+
+.alert-xs {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -140px 0 0 -200px;
+	width: 400px;
+	z-index: 1001
+}
+
+.alert-xs .caption {
+	background-color: #00abd8;
+	color: #fff;
+	cursor: move
+}
+
+.alert-xs .content {
+	width: 368px;
+	max-height: 398px;
+	background-color: #fff;
+	border: 1px solid #00abd8
+}
+
+.alert-sm {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -333px 0 0 -315px;
+	width: 600px;
+	z-index: 1001
+}
+
+.alert-sm .caption {
+	background-color: #00abd8;
+	color: #fff;
+	cursor: move
+}
+
+.alert-sm .content {
+	width: 568px;
+	max-height: 498px;
+	background-color: #fff;
+	border: 1px solid #00abd8
+}
+
+.alert-md {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -433px 0 0 -415px;
+	width: 800px;
+	z-index: 1001
+}
+
+.alert-md .caption {
+	background-color: #00abd8;
+	color: #fff;
+	cursor: move
+}
+
+.alert-md .content {
+	width: 768px;
+	max-height: 598px;
+	background-color: #fff;
+	border: 1px solid #00abd8
+}
+
+.mn .schBox {
+	padding: 15px 0;
+	margin-top: 15px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	*zoom: 1
+}
+
+.mn .schBox:hover {
+	border-color: #00abd8
+}
+
+.mn .schBox:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.mn .schBox .schItem.keyWordItem {
+	width: 450px;
+	margin-left: 20px;
+	padding: 0 5px;
+	float: left
+}
+
+.mn .schBox .schItem.keyWordItem .schTit {
+	margin-bottom: 5px;
+	height: 20px;
+	line-height: 20px
+}
+
+.mn .schBox .schItem.keyWordItem .schIpt {
+	padding: 0 10px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	overflow: hidden
+}
+
+.mn .schBox .schItem.keyWordItem .schIpt input {
+	height: 24px;
+	line-height: 24px;
+	border: 0;
+	box-shadow: none;
+	display: block;
+	background: 0 0;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.mn .schBox .schBtn {
+	margin-top: 22px;
+	margin-left: 20px;
+	float: left
+}
+
+.mn .schBox .schBtn button {
+	height: 30px;
+	line-height: 28px;
+	background-color: #00abd8;
+	border: 0;
+	box-shadow: none;
+	padding: 0 20px;
+	color: #fff;
+	cursor: pointer;
+	overflow: visible
+}
+
+.mn .schBox .css-result {
+	border-top: 1px solid #ddd;
+	margin: 15px 0 -15px 0;
+	padding: 15px 20px;
+	background-color: #efefef;
+	*zoom: 1
+}
+
+.mn .schBox .css-result:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.mn .schBox .css-result p {
+	font-size: 12px
+}
+
+.mn .schBox .css-result .css-btn {
+	margin-top: 10px
+}
+
+.mn .infoBox {
+	margin-top: 20px;
+	border: 1px solid #e6e6e6;
+	background-color: #fff
+}
+
+.mn .infoBox .span7 {
+	width: 40%
+}
+
+.mn .infoBox .span3 {
+	width: 10%
+}
+
+.mn .infoBox .span3 {
+	width: 10%
+}
+
+.mn .infoBox .span2 {
+	width: 10%
+}
+
+.mn .infoBox .infoTit {
+	height: 40px;
+	line-height: 40px;
+	padding: 0;
+	border-bottom: 1px solid #ddd;
+	*zoom: 1
+}
+
+.mn .infoBox .infoTit:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.mn .infoBox .infoTit li {
+	color: #333;
+	float: left;
+	margin-left: 10px
+}
+
+.mn .infoBox .infoList {
+	*zoom: 1
+}
+
+.mn .infoBox .infoList:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.mn .infoBox .infoList li {
+	border-top: 1px solid #f6f6f6;
+	float: left;
+	margin-left: 10px;
+	padding: 0;
+	line-height: 49px;
+	*zoom: 1
+}
+
+.mn .infoBox .infoList li:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.mn .infoBox .infoList li a,
+.mn .infoBox .infoList li span,
+.mn .infoBox .infoList li time {
+	color: #333;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	float: left
+}
+
+.mn .infoBox .infoList li a {
+	color: #00abd8
+}
+
+.mn .infoBox .infoList li .aire {
+	margin-top: 12px;
+	color: #fff
+}
+
+.mn .xTit {
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	padding: 0 20px;
+	background-color: #fff
+}
+
+.mn .ct {
+	margin-top: 15px;
+	background-color: #fff
+}
+
+.mn .ct .aTitle {
+	font-size: 16px;
+	padding: 20px 15px 15px;
+	text-align: center;
+	border-bottom: 1px solid #ddd
+}
+
+.mn .ct .aContent {
+	padding: 10px 20px
+}
+
+.mn .ct .btn2-primary {
+	background-color: #357ebd
+}
